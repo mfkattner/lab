@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #191919;
+  background: #FFFFFF;
+}
+
+h1 {
+  width: 480px;
+  font-family: "Arial", sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  color: #FF3961;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h3 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+nav {
+  width: 100vw;
+  background-color: #FF3961;
+  color: #000000;
+}
