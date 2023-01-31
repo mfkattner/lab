@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Teaching</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="team.html">Team</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="participate.html">Participate</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Teaching</h1>
+
+</div>
+
+
+<div id="courses-and-lectures" class="section level2 tabset">
+<h2 class="tabset"><strong>Courses and Lectures</strong></h2>
+<!--
+### *HMU Potsdam*
+-->
+<div id="hmu-potsdam" class="section level3">
+<h3><em>HMU Potsdam</em></h3>
+<ul>
+<li>Vorlesung <em>Allgemeine Psychologie II</em> [Sommer 2022, Winter
+2022/23]</li>
+<li>Seminar <em>Allgemeine Psychologie II</em> [Sommer 2022, Winter
+2022/23] <!--[Übungsblätter](pw1.html)--></li>
+<li>Vorlesung <em>Allgemeine Psychologie I</em> [Winter 2021/22, Sommer
+2022] <!--[lecture slides](pw.html)--></li>
+<li>Seminar <em>Allgemeine Psychologie I</em> [Winter 2021/22, Sommer
+2022]</li>
+<li><em>Forschungsorientiertes, experimentelles Praktikum</em> [Winter
+2021/22, Sommer 2022, Winter 2022/23]</li>
+<li>Vorlesung + Seminar <em>Medizinische Psychologie und Soziologie
+I</em> (Wahrnehmung, Emotion, Lernen/Konditionierung/Gedächtnis,
+Soziologie) [Sommer 2021]</li>
+<li>Vorlesung <em>Medizinische Psychologie und Soziologie II</em>
+(Methodische Grundlagen, Psychologische Testverfahren, Vergleichende
+Verhaltensforschung) [Sommer 2021]</li>
+<li>Seminar <em>Medizinische Psychologie und Soziologie II</em>
+(Neuropsychologie) [Sommer 2021]</li>
+</ul>
+</div>
+<div id="tu-darmstadt" class="section level3">
+<h3><em>TU Darmstadt</em></h3>
+<ul>
+<li><em>Experimentalpsychologisches Praktikum</em> [Sommer 2008 – Winter
+2020/21]</li>
+<li>Seminar <em>Allgemeine Psychologie I</em> (Wahrnehmung,
+Aufmerksamkeit, Lernen, Gedächtnis) [Winter 2007/08 – Sommer 2017]</li>
+<li>Vorlesung <em>Allgemeine Psychologie II</em> (Motivation und
+Emotion) [Winter 2016/17]</li>
+<li>Übung <em>Computergestützte Datenanalyse</em> (Statistik II) [Sommer
+2016]</li>
+<li>Vorlesung <em>Allgemeine Psychologie II</em> (Sprache und Denken)
+[Winter 2012/13]</li>
+<li>Seminar <em>Differenzielle Psychologie</em>
+(Persönlichkeitstheorien, Intelligenz) [Winter 2011/12]</li>
+<li>Programmierkurs <em>Matlab</em> (Psychophysics Toolbox) [Winter
+2010/11, Sommer 2013]</li>
+<li>Übung <em>Allgemeine Psychologie I</em> (Psychophysik, Simulation
+von Wahrnehmung und Lernen) [Sommer 2008 – Sommer 2013]</li>
+<li>Seminar <em>Kognitive Psychologie</em> (Modelle der Kognition)
+(Sommer 2008, Summer 2010)</li>
+<li>Übung <em>Kognitive Psychologie</em> [Sommer 2008]</li>
+</ul>
+</div>
+<div id="u-hamburg" class="section level3">
+<h3><em>U Hamburg</em></h3>
+<ul>
+<li>Seminar <em>Allgemeine Psychologie I</em> (Wahrnehmung, Sprache,
+Denken) [Sommer 2019]</li>
+<li>Seminar <em>Auditory attention and working memory</em> (Wahlbereich,
+M.Sc. Psychologie) [Sommer 2019]</li>
+<li>Vorlesung <em>Allgemeine Psychologie I</em> (Psychophysik,
+Wahrnehmung, Aufmerksamkeit) [Winter 2018/19]</li>
+<li>Übung <em>Allgemeine Psychologie I</em> (Methoden der Psychophysik,
+Simulation perzeptueller Mechanismen) [Winter 2018/19]</li>
+</ul>
+</div>
+<div id="u-kassel" class="section level3">
+<h3><em>U Kassel</em></h3>
+<ul>
+<li>Vorlesung <em>Allgemeine Psychologie I</em> (Psychophysik,
+Wahrnehmung, Aufmerksamkeit, Gedächtnis) [Winter 2017/18]</li>
+<li>Vertiefungsseminar <em>Allgemeine Psychologie I</em> (Wahrnehmung +
+Gedächtnis, englischsprachig) [Winter 2017/18]</li>
+<li>Zusatzseminar <em>Biologische Psychologie</em> (Neuronale
+Plastizität) [Winter 2017/18] Seminar <em>Recherche, methodenkritisches
+Lesen und Verfassen empirisch-psychologischer Arbeiten</em>
+(Blockveranstaltung) [Winter 2017/18]</li>
+<li>Vorlesung <em>Kognition, Bildung, Entwicklung</em> [Winter 2017/18,
+Teil “Kognition”]</li>
+</ul>
+</div>
+<div id="uw-madison" class="section level3">
+<h3><em>UW Madison</em></h3>
+<ul>
+<li>Programming course <em>Psychophysics Toolbox for Matlab</em> [Spring
+2015, Fall 2014]</li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="thesis-supervision" class="section level2 tabset">
+<h2 class="tabset"><strong>Thesis supervision</strong></h2>
+<div id="section" class="section level3">
+<h3><em>2022</em></h3>
+<ul>
+<li>Florian Hennemann (2022). <em>Individual differences and the role of
+inhibitory control in the Irrelevant Speech Effect.</em> Bachelorarbeit,
+TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3><em>2021</em></h3>
+<ul>
+<li>Belen Abdelkader, Monica Cirillo, &amp; Sophie Winter (2021).
+<em>Die Reliabilität der individuellen Störbarkeit des
+Arbeitsgedächtnisses durch irrelevante Sprache und einen auditorischen
+Devianten</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Johanna Stumpf (2021). <em>Die Verarbeitung von emotionalen Stimuli
+im ikonischen Gedächtnis, Labor vs. Online-Studie</em>. Bachelorarbeit,
+TU Darmstadt.</li>
+<li>Lukas Werthmanns (2021). <em>Entwicklung eines Online Versuchs zur
+Messung des Irrelevant Speech Effekts.</em> Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Lena Jacob (2021). <em>Der Einfluss akustischer Distinktheit und
+inhibitorischer Kontrolle auf die kognitive Beeinträchtigung durch
+irrelevante Schalle</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Marieke Fischer (2021). <em>Does Task-Irrelevant Emotional Speech
+Interfere with Serial Recall in Blind and Sighted Listeners?</em>
+Bachelorarbeit, TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-2" class="section level3">
+<h3><em>2020</em></h3>
+<ul>
+<li>Abdulhanan Othman &amp; Bashar Shikho (2020) <em>Perzeptuelles
+Lernen der Unterscheidung von Tonkomplexen</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Dina Grinstein (2020). <em>Mediennutzung in der Corona-Krise Die
+Rolle von Persönlichkeit und Coping</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Saskia Westerweller (2020). <em>Wie evaluative Konditionierung die
+visuelle Aufmerksamkeit beeinflusst</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Linda Paul (2020). <em>Aufmerksamkeitsablenkung oder mehr?
+Untersuchung des Irrelevant-Speech-Effekts mit einer komplexen
+Gedächtnisspannenaufgabe</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Johanna Schießl (2020). <em>Training der Arbeitsgedächtniskapazität
+mit einer dualen “n-back-Aufgabe”: Auswirkungen auf Störschallresilienz
+und fluide Intelligenz</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Sophia Pieronczyk &amp; Michael Kaul (2020). <em>Der Einfluss eines
+Aufmerksamkeitstrainings auf den Changing-State-Effekt und die fluide
+Intelligenz</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Katharina Behler (2020). <em>Hilfesuchverhalten und Depressivität
+von Schülerinnen und Schülern: Evaluation eines
+Suizidpräventionstrainings des Projektes SAVE</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Zarina Catar (2020). <em>Bilingualism and cognitive control:
+Differences in task switching and the auditory distraction</em>.
+Bachelorarbeit, TU Darmstadt.</li>
+<li>Yannik Mannet (2020). <em>Evaluation einer Lehrkräftefortbildung zur
+Suizidprävention. Können Lehrkräfte ihre Handlungskompetenz im Umgang
+mit suizidalen Schülerinnen und Schülern verbessern?</em>
+Bachelorarbeit, TU Darmstadt.</li>
+<li>Sarah Hanl (2020). <em>Aufmerksamkeitsorientierung
+vs. Duplex-Mechanismus: Eine neue Methode zur Untersuchung des
+Irrelevant Speech Effekts</em>. Masterarbeit, TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-3" class="section level3">
+<h3><em>2019</em></h3>
+<ul>
+<li>Hanna Meinhardt (2019). <em>Einfluss von Hintergrundschall und
+musikalischer Expertise auf das verbale und musikalische
+Kurzzeitgedächtnis</em>. Bachelorarbeit, Universität Hamburg.</li>
+<li>Dustin Fleckenstein (2019). <em>Effects of evaluative conditioning
+on early sensory processing</em>. Masterarbeit, TU Darmstadt</li>
+<li>Karla Salazar (2019). <em>Effekte evaluativer Konditionierung auf
+das ikonische Gedächtnis</em>. Masterarbeit, TU Darmstadt.</li>
+<li>Celine Saul (2019). <em>Elektrophysiologische Korrelate evaluativer
+Konditionierung</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Michael Kreis (2019). <em>Manche mögens laut: Eine
+psychophysiologische Untersuchung zur Lästigkeit von Verkehrslärm unter
+Berücksichtigung interindividueller Unterschiede</em>. Masterarbeit, TU
+Darmstadt</li>
+<li>Anika Raum (2019). <em>Cross-modale Kommutativität der
+Größenherstellungen von Lautstärke und Helligkeit</em>. Bachelorarbeit,
+TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-4" class="section level3">
+<h3><em>2018</em></h3>
+<ul>
+<li>Stefan Coels (2018). <em>Training des verbalen
+Kurzzeitgedächtnisses: Hilft ein dichotisches Gedächtnistraining gegen
+die störende Wirkung irrelevanter Sprache?</em> Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Ewald Klippenstein (2018). <em>Lästigkeitsbewertung und
+physiologische Reaktion auf Verkehrslärm bei Bearbeitung einer
+Aufmerksamkeitsaufgabe</em>. Masterarbeit, TU Darmstadt.</li>
+<li>Corinne Orlemann (2018). <em>Emotional working memory: Processing of
+affective intonations in the n-back paradigm</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Larissa Samaan (2018). <em>Effects of an auditory task switching
+training on cognitive functions</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Tim Schmidt (2018). <em>Faktoren des Kindchenschemas: Gewichtung von
+Merkmalen in der Gesichtswahrnehmung</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Babette Dürrenberg &amp; Andrea Elzenbeck (M.Sc. Psych.).
+<em>Affektive Bewertung und Psychoakustik von
+Spielzeuggeräuschen</em>.</li>
+</ul>
+</div>
+<div id="section-5" class="section level3">
+<h3><em>2017</em></h3>
+<ul>
+<li>Maria Hernando (2017). <em>Development and Effectiveness Evaluation
+of a Human Machine Interface for Start-Stop Coasting</em>. Masterarbeit,
+TU Darmstadt.</li>
+<li>Sarah Hanl (2017). <em>Beeinträchtigung der Gedächtnisleistung durch
+emotional gefärbte Hintergrundsprache</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+<li>Karla Salazar (2017). <em>Welche Eigenschaften von Sprache
+beeinträchtigen die Erinnerungsleistung? Ein Experiment mit
+aufgabenirrelevanten, lokal-invertierten Schallen</em>. Bachelorarbeit,
+TU Darmstadt.</li>
+<li>Samuel Zeuch (2017). <em>Detektion wahrer, falscher und
+vorgetäuschter Intentionen im Mock-Crime-Paradigma anhand des
+autobiographischen, impliziten Assoziationstests</em>. Masterarbeit, TU
+Darmstadt.</li>
+<li>Annika Schupp (2017). <em>Effekte evaluativer Konditionierung auf
+das ikonische Gedächtnis</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Sina Zimmermann (2017). <em>Einfluss der Aufgabenstellung auf die
+Transferleistung beim Kategorienlernen</em>.</li>
+</ul>
+</div>
+<div id="section-6" class="section level3">
+<h3><em>2016</em></h3>
+<ul>
+<li>Stephan Daebler (2016). <em>Verständlichkeit von zeitlich
+segmentierter und rückwaerts dargebotener Sprache</em>. Bachelorarbeit,
+TU Darmstadt.</li>
+<li>Lena Faust (2016). <em>Der Einfluss von evaluativer Konditionierung
+auf die visuelle Aufmerksamkeit: Effekte auf das “Useful Field of
+View”</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Kyra Wange (2016). <em>Beeinflusst evaluative Konditionierung die
+visuelle Aufmerksamkeit?</em> Bachelorarbeit, TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-7" class="section level3">
+<h3><em>2015</em></h3>
+<ul>
+<li>Sebastian Warda (2015). <em>Therapieevaluation der multimodalen
+Psychotherapie für Tinnituspatienten der Tagesklinik Ulmenhof</em>.
+Masterarbeit, TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-8" class="section level3">
+<h3><em>2014</em></h3>
+<ul>
+<li>Hazar Haj (2014). <em>Hysteresis in magnitude production of pitch
+intervals</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Sebastian Warda (2014). <em>Lateralisierung dichotischer
+Verarbeitung von Sprache, komplexen Tönen und Melodie</em>.
+Bachelorarbeit, TU Darmstadt.</li>
+<li>Payden White (2014). <em>Blocking effects present in evaluative
+conditioning through automatic association formation</em>. Biology –
+Section 313, University of Wisconsin-Madison.</li>
+<li>Samuel Zeuch (2014.). <em>Kontextabhängige Entscheidungsfehler beim
+prädiktiven Lernen</em>. Bachelorarbeit, TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-9" class="section level3">
+<h3><em>2013</em></h3>
+<ul>
+<li>Josephine Berger &amp; Christopher-John Gawe (2013). <em>Auditive
+Verarbeitung irrelevanter Sprache bei blinden und sehenden
+Menschen</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Sabrina Köhler (2013). <em>Evaluatives Konditionieren: Sind gelernte
+Assoziationen wirklich löschungsresistent?</em> Bachelorarbeit, TU
+Darmstadt.</li>
+</ul>
+</div>
+<div id="section-10" class="section level3">
+<h3><em>2012</em></h3>
+<ul>
+<li>Corinna Lohrey (2012.). <em>Lateralitätseffekte bei der Verarbeitung
+irrelevanter Sprache</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Anna-Livia Meimbresse (2012). <em>Ist Evaluatives Konditionieren
+wirklich löschungsresistent? Der Einfluss von Baseline-Ratings</em>.
+Bachelorarbeit, TU Darmstadt.</li>
+<li>Nikolas Suchhardt (2012). <em>Contiguity and contingency awareness
+in evaluative delay- and trace conditioning</em>. Diplomarbeit
+(Biologie), TU Darmstadt.</li>
+</ul>
+</div>
+<div id="section-11" class="section level3">
+<h3><em>2011</em></h3>
+<ul>
+<li>Jana Birkenbusch (2011). <em>The influence of stimulus properties in
+contingency learning</em>. Bachelorarbeit, TU Darmstadt.</li>
+<li>Rabia Tittus (2011). <em>Subliminales Priming evaluativer Reaktionen
+und der Einfluss auf die Wiedererkennungsleistung</em>. Bachelorarbeit,
+TU Darmstadt.</li>
+<li>Christian Wieser (2011). <em>Störung des Arbeitsgedächtnisses durch
+emotional intonierte chinesische Sprache</em>. Bachelorarbeit, TU
+Darmstadt.</li>
+</ul>
+</div>
+<div id="section-12" class="section level3">
+<h3><em>2010</em></h3>
+<ul>
+<li>Fabian Nguyen (2010). <em>Evaluative Konditionierung durch
+computervermittelte Medien</em>. Bachelorarbeit, TU Darmstadt.</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

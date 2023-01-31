@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="team.html">Team</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="participate.html">Participate</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Research</h1>
+
+</div>
+
+
+<div id="section" class="section level2 tabset">
+<h2 class="tabset"></h2>
+<div id="auditory-cognition" class="section level3">
+<h3><em>Auditory Cognition</em></h3>
+<p>In the field of auditory cognition, I am interested in how humans
+process sound that is irrelevant to an individual’s current goals, and
+how this depends on the individual’s sensory and cognitive processing
+abilities (e.g., working memory capacity or auditory selective
+attention). I am also studying the effects of psychoacoustics (e.g.,
+loudness, fluctuation strength), speech-related properties (e.g.,
+semantics, syntax, prosodic cues), and subjective evaluations (e.g.,
+liking, annoyance, unpleasantness) on the disruption of performance in a
+focal cognitive task. Using the classical “irrelevant sound paradigm”, I
+am investigating the disruptive effects of (acoustically manipulated)
+background speech on the short-term memorization of visually presented
+information, but I am also interested in auditory distraction in other
+cognitive tasks (e.g., mental arithmetics; Kattner et al., 2022,
+<em>M&amp;C</em>). Regardless of the exact task, I am particularly
+interested in the mechanisms by which certain properties of the sound
+(e.g., phonological integrity, emotional prosody, intelligibility)
+interfere with specific processes that are demanded by the focal task
+(e.g., verbal processing, serial rehearsal). With regard to emotional
+prosody, we found that certain intonations (angry speech) produce
+enhanced disruption of serial short-term memory (compared to neutral
+speech; see left panel of the figure below), whereas no such effect was
+observed in a task that does not require serial-order processing (green
+vs. red bar in the right panel below; Kattner &amp; Ellermeier, 2018,
+<em>JEP:HPP</em>). In contrast, a single prosody deviation (a shift from
+neutral to angry speech in only one word) was found to disrupt
+performance in both the serial and the non-serial short-term memory task
+(see orange bar in the right panel below).</p>
+<center>
+<img src="img/Fig4b_Prosody_Task.png" style="width:75.0%" />
+</center>
+<p>In addition, I am studying whether auditory distraction can be
+reduced through enhanced auditory selective attention or cognitive
+control. In this line of research, we were able to demonstrate that the
+disruptive effect of irrelevant speech on verbal short-term memory can
+be eliminated or attenuated in (a) blind listeners (Kattner &amp;
+Ellermeier, 2014a, <em>QJEP</em>) as well as (b) sighted individuals
+whose auditory selective attention had been trained (Kattner &amp;
+Ellermeier, 2020, <em>JEP:HPP</em>). In a current series of experiments,
+we are also studying the role of foreknowledge and metacognitive
+monitoring of auditory distractors (e.g., Kattner et al., 2022;
+<em>APC</em>).</p>
+<p>More recently, I have been studying the influence of auditory
+distractors on attention in dual-task situations. Specifically, using an
+auditory search task in the “psychological refractory period” paradigm,
+we were able to show that auditory and central attention do not depend
+on the same central capacity limitations (Kattner &amp; Reimer, 2020,
+<em>QJEP</em>).</p>
+<div id="collaborators" class="section level4">
+<h4><strong>Collaborators</strong></h4>
+<p><a
+href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/psychologie/arbeitsbereiche/kognition-und-wahrnehmung/kognition-und-wahrnehmung/donna-bryce/">Donna
+Bryce, University of Tübingen</a></p>
+<p><a
+href="https://www.kog.psychologie.tu-darmstadt.de/angewandte_kognitionspsychologie_kog/team_kog/team_kog_details_1672.en.jsp">Wolfgang
+Ellermeier, Technical University of Darmstadt</a></p>
+<p><a
+href="https://staff.lincoln.ac.uk/e378a474-b386-4b95-96c8-303ef930c78c">Julia
+Föcker, University of Lincoln</a></p>
+<p><a
+href="https://www.uclan.ac.uk/academics/dr-john-everett-marsh">John E.
+Marsh, University of Central Lancashire</a></p>
+<p><a
+href="https://www.researchgate.net/profile/Christina_Reimer">Christina
+Reimer, Ghent University</a></p>
+<p><a href="http://www.design.kyushu-u.ac.jp/~ueda/index.html">Kazuo
+Ueda, Kyushu University</a></p>
+</div>
+</div>
+<div id="learning-and-transfer" class="section level3">
+<h3><em>Learning and Transfer</em></h3>
+<p>In the field of learning, I am interested in the degree of transfer
+to novel settings (e.g., new tasks or stimuli), that can be observed
+after extensive perceptual or associative learning. Moreover, I
+investigate the relationship and transfer between learning mechanisms in
+affective-evaluative, cognitive and perceptual domains. In a
+prototypical learning study, structural properties of learning task are
+manipulated to idenfity the specific learning processes that enable
+transfer of knowledge or skills to new tasks and stimuli. In a study on
+rule-based category learning (Kattner et al., 2015, <em>PLOS ONE</em>),
+we observed that transfer to new stimulus exemplars strongly depends on
+the exact training task, with category identification (see the smooth
+transition from the training to the transfer stage in the right panel in
+the figure below) producing more transfer than a category discrimination
+task (left panel in the figure below). These findings suggest that
+transfer may be a function of whether the training task fosters the
+acquisition of stimulus-specific or generalized decision rules. In the
+field of associative learning, it is often found that the learning rate
+is typically higher for stimuli, which had been experienced as
+predictive cues in previous learning stages (e.g., Kattner, 2015,
+<em>L&amp;B</em>; Kattner &amp; Green, 2016; <em>JEP:ABP</em>).</p>
+<center>
+<img src="img/bctransfer.jpg" style="width:75.0%" />
+</center>
+<p>I am also interested in the effects of (1) extensive training with
+cognitively demanding tasks (e.g., task-switching or working-memory
+updating; Kattner et al., 2019, <em>M&amp;C</em>; Kattner, 2020,
+<em>PsyRes</em>) and (2) more joyful activities such as playing video
+games (Dale et al., 2020, <em>PPMC</em>). In both fields, I also want to
+identify the exact task mechanics, and the cognitive and perceptual
+demands, that may be responsible for the beneficial effects on attention
+and cognition, as well as (in case of certain types of video games) for
+the detrimental effects such as the occurrence of addictive
+behavior.</p>
+<p>In the field of evaluative conditioning (i.e., affective-evaluative
+change resulting from stimulus pairings), I am most interested in (a)
+the dependency of evaluative conditioning on cognitive resources (e.g.,
+attention, cognitive control) and (b) the effects of evaluative
+conditioning on sensory processing (Kattner &amp; Green, 2019,
+<em>ActaPsy</em>). In addition, I have been studying effects of the
+predictive relationship (statistical contingency) between conditioned
+and unconditioned stimulus – and the resulting subjective judgments of
+contingency – on the evaluative change (Kattner &amp; Ellermeier, 2011,
+<em>ExpPsy</em>; Kattner et al., 2012, <em>L&amp;M</em>).</p>
+<div id="participate" class="section level4">
+<h4><strong>Participate</strong></h4>
+<p><a href="https://www.psytoolkit.org/c/3.3.0/survey?s=U9JpZ">Click
+here to participate in current study on category learning (in
+English).</a></p>
+</div>
+<div id="collaborators-1" class="section level4">
+<h4><strong>Collaborators</strong></h4>
+<p><a href="https://soccco.uni-koeln.de/anne-gast">Anne Gast, University
+of Cologne</a></p>
+<p><a href="https://greenlab.psych.wisc.edu/">C. Shawn Green, Univesity
+of Wisconsin-Madison</a></p>
+<p><a
+href="https://www.psych.uni-halle.de/abteilungen/allgemeine_psychologie/mitarbeiter/schubert/">Torsten
+Schubert, University of Halle-Wittenberg</a></p>
+<p><a
+href="https://www.medicalschool-hamburg.de/hochschule/unser-team/team-fakultaet-humanwissenschaften-universitaet/professoren/tilo-strobach/">Tilo
+Strobach, Medical School Hamburg</a></p>
+</div>
+</div>
+<div id="psychophysics" class="section level3">
+<h3><em>Psychophysics</em></h3>
+<p>I am also interested in the evaluation and development of
+psychophysical methods. In the field of measurement theory, we have
+contributed to the understanding of direct scaling methods with sensory
+attributes that may not necessarily be represented on a linear scale
+(e.g., ‘metathetic’ continua such as pitch; Kattner &amp;
+Ellermeier,2014b, <em>AP&amp;P</em>). In a prototypical pitch production
+experiment, participants are asked to adjust the frequency of a tone so
+that it subdivides a given pitch interval by a particular fraction
+(e.g., 1/2 or 2/3 of the interval). We were able to show that
+participants can produce consistent adjustments of this sort on a
+ratio-scale level even for pitch, fulfilling the fundamental axiom of
+commutativity (i.e., 1/2 x 2/3 = 2/3 x 1/2; see the figure below for a
+typical result of frequency adjustments using these fractions).
+Furthermore, we have shown that commutativity holds even in a
+cross-modal judgment task in which properties from different sensory
+modalities need to be compared (e.g., ‘make the tone three times as loud
+as the light is bright’; Ellermeier et al., 2021, <em>AP&amp;P</em>)</p>
+<center>
+<img src="img/pitch_hyst.jpg" style="width:50.0%" />
+</center>
+<p>In addition, I have been working on psychometric fitting procedures
+to account for the ongoing change of underlying parameters due to
+practice effects or learning (e.g., trial-dependent psychometric
+functions; Kattner et al., 2017, <em>JoV</em>; Kattner et al., 2017;
+<em>CurrBiol</em>).</p>
+<div id="collaborators-2" class="section level4">
+<h4>Collaborators</h4>
+<p><a
+href="https://www.kog.psychologie.tu-darmstadt.de/mitarbeiter_1/ellermeier/ellermeier.en.jsp">Wolfgang
+Ellermeier, Technical University of Darmstadt</a></p>
+<p><a href="https://greenlab.psych.wisc.edu/staff/green-c-shawn/">C.
+Shawn Green, University of Wisconsin-Madison</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
