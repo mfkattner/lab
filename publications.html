@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="team.html">Team</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="participate.html">Participate</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+
+<div id="section" class="section level1 tabset">
+<h1 class="tabset"></h1>
+<div id="journal-articles-peer-reviewed" class="section level2">
+<h2><em>Journal Articles (peer-reviewed)</em></h2>
+<ol style="list-style-type: decimal">
+<li><p>Föcker, J., Huang, L., Caling, A. L., Fischer, M., Ihle, A.,
+Hodgson, T., &amp; <strong>Kattner, F.</strong> (2024). Enhanced
+auditory serial recall of recently presented auditory digits following
+auditory distractor presentation in blind individuals. <em>Quarterly
+Journal of Experimental Psychology</em>. Manuscript accepted for
+publication.</p></li>
+<li><p><strong>Kattner, F.</strong>, Hassanzadeh, M., &amp; Ellermeier,
+W. (2024). The role of spatial location in irrelevant speech revisited:
+A registered replication of Jones and Macken (1995). <em>Journal of
+Experimental Psychology: Learning, Memory, and Cognition</em>.
+Manuscript accepted for publication.</p></li>
+<li><p>Clausen, A. E., &amp; <strong>Kattner, F.</strong> (2024). The
+role of evaluatively conditioned stimuli in iconic memory.
+<em>Psychological Research</em>. <a
+href="https://doi.org/10.1007/s00426-024-02024-w"
+class="uri">https://doi.org/10.1007/s00426-024-02024-w</a></p></li>
+<li><p>Oberfeld, D., Staab, K., <strong>Kattner, F.</strong>, &amp;
+Ellermeier, &amp; W. (2024). Is recognition of speech in noise related
+to memory disruption caused by irrelevant sound? <em>Trends in
+Hearing</em>, <em>28</em>, 1-21. <a
+href="https://doi.org/10.1177/23312165241262517"
+class="uri">https://doi.org/10.1177/23312165241262517</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2024). False memories through
+auditory distraction: When irrelevant speech produces memory intrusions
+in the absence of semantic interference. <em>Quarterly Journal of
+Experimental Psychology</em>. <a
+href="https://doi.org/10.1177/17470218241235654"
+class="uri">https://doi.org/10.1177/17470218241235654</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Fischer, M., Caling, A., Cremona,
+S., Ihle, A., Hodgson, T., &amp; Föcker, J. (2024). The disruptive
+effects of changing-state sound and emotional prosody on verbal
+short-term memory in blind, visually impaired, and sighted listeners.
+<em>Journal of Cognitive Psychology</em>, <em>36</em>(1), 28-41. <a
+href="https://doi.org/10.1080/20445911.2023.2186771"
+class="uri">https://doi.org/10.1080/20445911.2023.2186771</a></p></li>
+<li><p>Bryce, D., <strong>Kattner, F.</strong>, Birngruber, T., &amp;
+Wellingerhof, P. (2023). Monitoring accuracy suffers when working memory
+demands increase: Evidence of a dependent relationship. <em>Journal of
+Experimental Psychology: Learning, Memory, and Cognition</em>,
+<em>49</em>(12), 1909-1922. <a href="https://doi.org/10.1037/xlm0001262"
+class="uri">https://doi.org/10.1037/xlm0001262</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Gast, A. (2023). Scaling
+preferences using probabilistic choice models: Is there a ratio-scale
+representation of subjective liking? <em>Psychological Research</em>,
+<em>87</em>, 1953-1965. <a
+href="https://doi.org/10.1007/s00426-022-01775-8"
+class="uri">https://doi.org/10.1007/s00426-022-01775-8</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Hanl, S., Paul, L., &amp;
+Ellermeier, W. (2023). Task-specific auditory distraction in serial
+recall and mental arithmetic. <em>Memory &amp; Cognition</em>,
+<em>51</em>, 930-951. <a
+href="https://doi.org/10.3758/s13421-022-01363-6"
+class="uri">https://doi.org/10.3758/s13421-022-01363-6</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Hassanzadeh, M., &amp; Ellermeier,
+W. (2023). The role of spatial location in irrelevant speech revisited:
+A registered replication of Jones and Macken (1995). <em>In principle
+acceptance of Version 3 by Peer Community in Registered Reports</em>. <a
+href="https://doi.org/10.17605/OSF.IO/2TB8E"
+class="uri">https://doi.org/10.17605/OSF.IO/2TB8E</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Bryce, D. (2022). Attentional
+control and metacognitive monitoring of the effects of different types
+of task-irrelevant sound on serial recall. <em>Journal of Experimental
+Psychology: Human Perception and Performance</em>, <em>48</em>(2),
+139-158. <a href="https://doi.org/10.1037/xhp0000982"
+class="uri">https://doi.org/10.1037/xhp0000982</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, &amp; Raum, A.
+(2022). Correction to: Cross‑modal commutativity of magnitude
+productions. <em>Attention, Perception, &amp; Psychophysics</em>,
+<em>84</em>, 322-323. <a
+href="https://doi.org/10.3758/s13414-021-02385-z"
+class="uri">https://doi.org/10.3758/s13414-021-02385-z</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Richardson, B. H., &amp; Marsh, J.
+E. (2022). The benefit of foreknowledge in auditory distraction depends
+on the intelligibility of pre-exposed speech. <em>Auditory Perception
+&amp; Cognition</em>, <em>5</em>(3-4), 151-168. <a
+href="https://doi.org/10.1080/25742442.2022.2089525"
+class="uri">https://doi.org/10.1080/25742442.2022.2089525</a></p></li>
+<li><p>Marsh, J. E., <strong>Kattner, F.</strong>, &amp; Ruhnau, P.
+(2022). Research collection: On theoretical advancement in auditory
+distraction research. <em>Auditory Perception &amp; Cognition</em>,
+<em>4</em>(3-4), 133-138. <a
+href="https://doi.org/10.1080/25742442.2022.2036524"
+class="uri">https://doi.org/10.1080/25742442.2022.2036524</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, &amp; Raum, A.
+(2021). Cross-modal commutativity of magnitude productions of loudness
+and brightness. <em>Attention, Perception, &amp; Psychophysics</em>,
+<em>83</em>, 2955-2967. <a
+href="https://doi.org/10.3758/s13414-021-02324-y"
+class="uri">https://doi.org/10.3758/s13414-021-02324-y</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2021). Transfer of working memory
+training to the inhibitory control of auditory distraction.
+<em>Psychological Research</em>, <em>85</em>, 3152-3166. <a
+href="https://doi.org/10.1007/s00426-020-01468-0"
+class="uri">https://doi.org/10.1007/s00426-020-01468-0</a></p></li>
+<li><p>Toovey, B. R., <strong>Kattner, F.</strong>, &amp; Schubert, T.
+(2021). Cross-modal transfer following auditory task-switching training
+in old adults. <em>Frontiers in Psychology</em>, <em>12</em>, Article
+615518. <a href="https://doi.org/10.3389/fpsyg.2021.615518"
+class="uri">https://doi.org/10.3389/fpsyg.2021.615518</a></p></li>
+<li><p>Dale, G., <strong>Kattner, F.</strong>, Bavelier, D., &amp;
+Green, C. S. (2020). Cognitive abilities of action-videogame and
+role-playing videogame players: Data from a Massive Open Online Course.
+<em>Psychology of Popular Media</em>, <em>9</em>(3), 347-358. <a
+href="https://doi.org/10.1037/ppm0000237"
+class="uri">https://doi.org/10.1037/ppm0000237</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Klippenstein, E.,
+Kreis, M., &amp; Marquis Favre, C. (2020). Short-term noise annoyance
+and electrodermal response as a function of sound-pressure level,
+cognitive task load, and noise sensitivity. <em>Noise &amp; Health</em>,
+<em>22</em>(105), 46-55. <a href="https://doi.org/10.4103/nah.NAH_47_19"
+class="uri">https://doi.org/10.4103/nah.NAH_47_19</a> [<a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7986449/"
+class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7986449/</a>]</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Clausen, A. (2020).
+Revisiting the prioritization of emotional information in iconic memory.
+<em>Royal Society Open Science</em>, <em>7</em>(10), Article 191507. <a
+href="https://doi.org/10.1098/rsos.191507"
+class="uri">https://doi.org/10.1098/rsos.191507</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2020).
+Distraction at the cocktail party: Attenuation of the irrelevant speech
+effect after a training of auditory selective attention. <em>Journal of
+Experimental Psychology: Human Perception and Performance</em>,
+<em>46</em>(1), 10-20. <a href="https://doi.org/10.1037/xhp0000695"
+class="uri">https://doi.org/10.1037/xhp0000695</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Meinhardt, H. (2020).
+Dissociating the disruptive effects of irrelevant music and speech on
+serial recall of tonal and verbal sequences. <em>Frontiers in
+Psychology</em>, <em>11</em>, Article 346. <a
+href="https://doi.org/10.3389/fpsyg.2020.00346"
+class="uri">https://doi.org/10.3389/fpsyg.2020.00346</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Reimer, C. B. (2020).
+Dissociating central and auditory attention: Is there a shared
+bottleneck for response selection and auditory search? <em>Quarterly
+Journal of Experimental Psychology</em>, <em>73</em>(10), 1564-1574. <a
+href="https://doi.org/10.1177/1747021820928030"
+class="uri">https://doi.org/10.1177/1747021820928030</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Green, C. S. (2019). Enhanced
+early visual processing after evaluative conditioning. <em>Acta
+Psychologica</em>, <em>197</em>, 1-9. <a
+href="https://doi.org/10.1016/j.actpsy.2019.04.009"
+class="uri">https://doi.org/10.1016/j.actpsy.2019.04.009</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Samaan, L., &amp; Schubert, T.
+(2019). Cross-modal transfer after auditory task-switching training.
+<em>Memory &amp; Cognition</em>, <em>47</em>(5), 1044-1061. <a
+href="https://doi.org/10.3758/s13421-019-00911-x"
+class="uri">https://doi.org/10.3758/s13421-019-00911-x</a></p></li>
+<li><p>Stiller, A. K., <strong>Kattner, F.</strong>, Gunzenhauser, C.,
+&amp; Schmitz, B. (2019). The effect of positive reappraisal on the
+availability of self-control resources and self-regulated learning.
+<em>Educational Psychology</em>, <em>39</em>(1), 86-111. <a
+href="https://doi.org/10.1080/01443410.2018.1524851"
+class="uri">https://doi.org/10.1080/01443410.2018.1524851</a></p></li>
+<li><p>Ueda, K., Nakajima, Y., <strong>Kattner, F.</strong>, &amp;
+Ellermeier, W. (2019). Irrelevant speech effects with locally
+time-reversed speech: Native vs non-native language. <em>Journal of the
+Acoustical Society of America</em>, <em>145</em>, 3686-3694. <a
+href="https://doi.org/10.1121/1.5112774"
+class="uri">https://doi.org/10.1121/1.5112774</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2018).
+Emotional prosody of task-irrelevant speech interferes with the
+retention of serial order. <em>Journal of Experimental Psychology: Human
+Perception and Performance</em>, <em>44</em>(8), 1303-1312. <a
+href="https://doi.org/10.1037/xhp0000537"
+class="uri">https://doi.org/10.1037/xhp0000537</a></p></li>
+<li><p>Green, C. S., <strong>Kattner, F.</strong>, Eichenbaum, A.,
+Bediou, B., Adams, D., Mayer, R., &amp; Bavelier, D. (2017). Playing
+some video games but not others is related to cognitive abilities - A
+critique of Unsworth et al. (2015). <em>Psychological Science</em>,
+<em>28</em>(5), 679-682. <a
+href="https://doi.org/10.1177/0956797616644837"
+class="uri">https://doi.org/10.1177/0956797616644837</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Cochrane, A., &amp; Green, C. S.
+(2017). Trial-dependent psychometric functions accounting for perceptual
+learning in 2-AFC discrimination tasks. <em>Journal of Vision</em>,
+<em>17</em>(11), Article 3. <a href="https://doi.org/10.1167/17.11.3"
+class="uri">https://doi.org/10.1167/17.11.3</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Cochrane, A., Cox, C. R., Gorman,
+T., &amp; Green, C. S. (2017). Perceptual learning generalization from
+sequential perceptual training as a change in learning rate. <em>Current
+Biology</em>, <em>27</em>(6), 840-846. <a
+href="https://doi.org/10.1016/j.cub.2017.01.046"
+class="uri">https://doi.org/10.1016/j.cub.2017.01.046</a></p></li>
+<li><p>Ueda, K., Nakajima, Y., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2017). Intelligibility of locally time-reversed speech: A
+multilingual comparison. <em>Scientific Reports</em>, <em>7</em>,
+Article 1782. <a href="https://doi.org/10.1038/s41598-017-01831-z"
+class="uri">https://doi.org/10.1038/s41598-017-01831-z</a></p></li>
+<li><p>Gast, A., &amp; <strong>Kattner, F.</strong> (2016). Single-trial
+evaluative conditioning can be moderated by instructed forgetting.
+<em>Learning &amp; Behavior</em>, <em>44</em>, 260-269. <a
+href="https://doi.org/10.3758/s13420-016-0210-9"
+class="uri">https://doi.org/10.3758/s13420-016-0210-9</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Cox, C. R., &amp; Green, C.S.
+(2016). Transfer in rule-based category learning depends on the training
+task. <em>PLoS ONE</em>, <em>11</em>(10), Article e0165260. <a
+href="https://doi.org/10.1371/journal.pone.0165260"
+class="uri">https://doi.org/10.1371/journal.pone.0165260</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Green, C. S. (2016). Transfer
+of dimensional associability in human contingency learning. <em>Journal
+of Experimental Psychology: Animal Learning and Cognition</em>,
+<em>42</em>(1), 15-31. <a href="https://doi.org/10.1037/xan0000082"
+class="uri">https://doi.org/10.1037/xan0000082</a></p></li>
+<li><p>Birkenbusch, J., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2015). Octuplicate this interval! Axiomatic examination of
+the ratio properties of duration perception. <em>Attention, Perception,
+&amp; Psychophysics</em>, <em>77</em>, 1767-1780. <a
+href="https://doi.org/10.3758/s13414-015-0846-0"
+class="uri">https://doi.org/10.3758/s13414-015-0846-0</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Ueda, K., Doumoto,
+K., &amp; Nakajima, Y. (2015). Memory disruption by irrelevant
+noise-vocoded speech: Effects of native language and the number of
+frequency bands. <em>Journal of the Acoustical Society of America</em>,
+<em>138</em>, 1561-1569. <a href="https://doi.org/10.1121/1.4928954"
+class="uri">https://doi.org/10.1121/1.4928954</a></p></li>
+<li><p>Eichenbaum, A., <strong>Kattner, F.</strong>, Bradford, D.,
+Gentile, D. A., Choo, H., Chen, V. H. H., Khoo, A., &amp; Green, C. S.
+(2015). The role of game genres and the development of internet gaming
+disorder in school-aged children. <em>Journal of Addictive Behaviors,
+Therapy &amp; Rehabilitation</em>, <em>4</em>(3), 1-7. <a
+href="https://doi.org/10.4172/2324-9005.1000141"
+class="uri">https://doi.org/10.4172/2324-9005.1000141</a></p></li>
+<li><p>Eichenbaum, A., <strong>Kattner, F.</strong>, Bradford, D.,
+Gentile, D. A., &amp; Green, C. S. (2015). Role-playing and real-time
+strategy games associated with greater probability of internet gaming
+disorder. <em>Cyberpsychology, Behavior, and Social Networking</em>,
+<em>18</em>, 480-485. <a href="https://doi.org/10.1089/cyber.2015.0092"
+class="uri">https://doi.org/10.1089/cyber.2015.0092</a></p></li>
+<li><p>Green, C. S., <strong>Kattner, F.</strong>, Siegel, M. H.,
+Kersten, D., &amp; Schrater, P. R. (2015). Differences in perceptual
+learning transfer as a function of training task. <em>Journal of
+Vision</em>, <em>15</em>(10), Article 5. <a
+href="https://doi.org/10.1167/15.10.5"
+class="uri">https://doi.org/10.1167/15.10.5</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2015). Transfer of absolute and
+relative predictiveness in human contingency learning. <em>Learning
+&amp; Behavior</em>, <em>43</em>, 32-43. <a
+href="https://doi.org/10.3758/s13420-014-0159-5"
+class="uri">https://doi.org/10.3758/s13420-014-0159-5</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Green, C. S. (2015). Cue
+competition in evaluative conditioning as a function of the learning
+process. <em>Acta Psychologica</em>, <em>162</em>, 40-50. <a
+href="https://doi.org/10.1016/j.actpsy.2015.09.013"
+class="uri">https://doi.org/10.1016/j.actpsy.2015.09.013</a></p></li>
+<li><p>Snell, N., <strong>Kattner, F.</strong>, Rokers, B., &amp; Green,
+C. S. (2015). Orientation transfer in vernier and stereoacuity training.
+<em>PLoS ONE</em>, <em>10</em>(12), Article e0145770. <a
+href="https://doi.org/10.1371/journal.pone.0145770"
+class="uri">https://doi.org/10.1371/journal.pone.0145770</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Kurtze, L., &amp;
+Bös, J. (2014). Psychoacoustic characterization of the noise produced by
+photovoltaic inverters. <em>Acta Acustica united with Acustica</em>,
+<em>100</em>(6), 1120-1128. <a href="https://doi.org/10.3813/AAA.918791"
+class="uri">https://doi.org/10.3813/AAA.918791</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2014). Reconsidering the
+(in)sensitivity of evaluative conditioning to reinforcement density and
+CS-US contingency. <em>Learning and Motivation</em>, <em>45</em>, 15-29.
+<a href="https://doi.org/10.1016/j.lmot.2013.09.002"
+class="uri">https://doi.org/10.1016/j.lmot.2013.09.002</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2014a).
+Irrelevant speech does not interfere with serial recall in early blind
+listeners. <em>Quarterly Journal of Experimental Psychology</em>,
+<em>67</em>(11), 2207-2217. <a
+href="https://doi.org/10.1080/17470218.2014.910537"
+class="uri">https://doi.org/10.1080/17470218.2014.910537</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2014b).
+Fractionation of pitch intervals: An axiomatic study testing
+monotonicity, commutativity, and multiplicativity in musicians and
+non-musicians. <em>Attention, Perception, &amp; Psychophysics</em>,
+<em>76</em>(8), 2508-2521. <a
+href="https://doi.org/10.3758/s13414-014-0674-7"
+class="uri">https://doi.org/10.3758/s13414-014-0674-7</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Ellermeier, W., &amp; Tavakoli, P.
+(2012). Both trace and delay conditioning of evaluative responses depend
+on contingency awareness. <em>Learning and Motivation</em>, <em>43</em>,
+35-47. <a href="https://doi.org/10.1016/j.lmot.2012.01.004"
+class="uri">https://doi.org/10.1016/j.lmot.2012.01.004</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2012). Revisiting the relation
+between contingency awareness and attention: Evaluative conditioning
+relies on a contingency focus. <em>Cognition and Emotion</em>,
+<em>26</em>(1), 166-175. <a
+href="https://doi.org/10.1080/02699931.2011.565036"
+class="uri">https://doi.org/10.1080/02699931.2011.565036</a></p></li>
+<li><p>Bösche, W., &amp; <strong>Kattner, F.</strong> (2011). Fear of
+(serious) digital games and game-based learning? <em>International
+Journal of Game-Based Learning</em>, <em>1</em>(3), 1-15. <a
+href="https://doi.org/10.4018/ijgbl.2011070101"
+class="uri">https://doi.org/10.4018/ijgbl.2011070101</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2011). Does
+evaluative learning rely on the perception of contingency? Manipulating
+contingency and US density during evaluative conditioning.
+<em>Experimental Psychology</em>, <em>58</em>(5), 391-399. <a
+href="https://doi.org/10.1027/1618-3169/a000108"
+class="uri">https://doi.org/10.1027/1618-3169/a000108</a></p></li>
+</ol>
+</div>
+<div id="conference-proceedings" class="section level2">
+<h2><em>Conference Proceedings</em></h2>
+<ol style="list-style-type: decimal">
+<li><p>Clausen, A. E., <strong>Kattner, F.</strong>, &amp; Ellermeier,
+W. (2024a). Does emotional valence affect intelligibility of speech in
+noise? <em>66th TeaP (Tagung experimentell arbeitender
+Psychologen)</em>. 17-20 March 2024, University of Regensburg.</p></li>
+<li><p>Clausen, A. E., <strong>Kattner, F.</strong>, &amp; Ellermeier,
+W. (2024b). Affective valence affects speech intelligibility in noise.
+<em>15th Speech in Noise Workshop (SPIN 2024)</em>. 11-12 January 2024,
+Potsdam, Germany.</p></li>
+<li><p>Conrad, S., &amp; <strong>Kattner, F.</strong> (2024). Does
+working memory capacity and auditory filtering account for age
+differences in irrelevant sound effects? <em>66th TeaP (Tagung
+experimentell arbeitender Psychologen)</em>. 17-20 March 2024,
+University of Regensburg.</p></li>
+<li><p>Hassanzadeh, M., <strong>Kattner, F.</strong>, &amp; Ellermeier,
+W. (2024). Auditory stream segregation in the irrelevant speech effect:
+A preregistered replication of Jones and Macken (1995). <em>66th TeaP
+(Tagung experimentell arbeitender Psychologen)</em>. 17-20 March 2024,
+University of Regensburg.</p></li>
+<li><p><strong>Kattner, F.</strong>, Stokar von Neuforn, C. M. A.,
+Scholz, P., Downing, L., &amp; Föcker, J. (2024). Effects of
+task-irrelevant whispered speech on short-term memory. <em>15th Speech
+in Noise Workshop (SPIN 2024)</em>. 11-12 January 2024, Potsdam,
+Germany. <a href="https://doi.org/10.5281/zenodo.10459814"
+class="uri">https://doi.org/10.5281/zenodo.10459814</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Stuff, L., Spitz, R., Downing, L.,
+&amp; Föcker, J. (2024). Whispered distraction: A comparison of
+irrelevant sound effects with loud and whispered speech in native and
+foreign language. <em>66th TeaP (Tagung experimentell arbeitender
+Psychologen)</em>. 17-20 March 2024, University of Regensburg. <a
+href="https://doi.org/10.5281/zenodo.10845576"
+class="uri">https://doi.org/10.5281/zenodo.10845576</a></p></li>
+<li><p>Clausen, A. E., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2023). Does speech intelligibility depend on affective
+valence? T. D. Ben Soussan, M. Pellegrino, F. Marson, P. Paoletti, &amp;
+M. A. Elliott (Eds.) <em>Proceedings of the 39th Annual Meeting of the
+International Society for Psychophysics - Fechner Day 2023</em> (p. 16).
+10-14 September 2023, Assisi, Italy.</p></li>
+<li><p>Clausen, A. E., &amp; <strong>Kattner, F.</strong> (2023).
+Valence in Feature and Conjunction Search. S. Merz, B. Moeller, S.
+Mueller, B. Pastötter, B. Leuchtenberg (Eds.) <em>65th TeaP (Tagung
+experimentell arbeitender Psycholog:innen)</em>. 26-29 March 2023,
+University of Trier. <a
+href="https://doi.org/10.23668/psycharchives.12946"
+class="uri">https://doi.org/10.23668/psycharchives.12946</a></p></li>
+<li><p>Conrad, S., &amp; <strong>Kattner, F.</strong> (2023a).
+Predicting age differences in auditory distraction based on perceptual
+filtering and working memory capacity. S. Merz, B. Moeller, S. Mueller,
+B. Pastötter, B. Leuchtenberg (Eds.) <em>65th TeaP (Tagung experimentell
+arbeitender Psycholog:innen)</em>. 26-29 March 2023, University of
+Trier. <a href="https://doi.org/10.23668/psycharchives.12946"
+class="uri">https://doi.org/10.23668/psycharchives.12946</a></p></li>
+<li><p>Conrad, S., &amp; <strong>Kattner, F.</strong> (2023b). Auditory
+task switching and distractor filtering as a function of working memory
+capacity and age. T. D. Ben Soussan, M. Pellegrino, F. Marson, P.
+Paoletti, &amp; M. A. Elliott (Eds.) <em>Proceedings of the 39th Annual
+Meeting of the International Society for Psychophysics - Fechner Day
+2023</em> (p. 25). 10-14 September 2023, Assisi, Italy.</p></li>
+<li><p>Ellermeier, W., &amp; <strong>Kattner, F.</strong> (2023).
+Cross-modal and intra-modal commutativity of magnitude productions
+compared. T. D. Ben Soussan, M. Pellegrino, F. Marson, P. Paoletti,
+&amp; M. A. Elliott (Eds.) <em>Proceedings of the 39th Annual Meeting of
+the International Society for Psychophysics - Fechner Day 2023</em>
+(p. 29). 10-14 September 2023, Assisi, Italy.</p></li>
+<li><p>Hassanzadeh, M., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2023). The role of spatial location in irrelevant speech
+revisited: Replication of Jones and Macken (1995). T. D. Ben Soussan, M.
+Pellegrino, F. Marson, P. Paoletti, &amp; M. A. Elliott (Eds.)
+<em>Proceedings of the 39th Annual Meeting of the International Society
+for Psychophysics - Fechner Day 2023</em> (p. 37). 10-14 September 2023,
+Assisi, Italy.</p></li>
+<li><p>Hassanzadeh, M., Theuergarten, R., Ellermeier, W., &amp;
+<strong>Kattner, F.</strong> (2023). Studying memory disruption by
+‘irrelevant’ speakers in a virtual-reality scenario. S. Merz, B.
+Moeller, S. Mueller, B. Pastötter, B. Leuchtenberg (Eds.) <em>65th TeaP
+(Tagung experimentell arbeitender Psycholog:innen)</em>. 26-29 March
+2023, University of Trier. <a
+href="https://doi.org/10.23668/psycharchives.12946"
+class="uri">https://doi.org/10.23668/psycharchives.12946</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2023). Does irrelevant speech
+increase the susceptibility to experimentally induced false memories? S.
+Merz, B. Moeller, S. Mueller, B. Pastötter, B. Leuchtenberg (Eds.)
+<em>65th TeaP (Tagung experimentell arbeitender Psycholog:innen)</em>.
+26-29 March 2023, University of Trier. <a
+href="https://doi.org/10.23668/psycharchives.12946"
+class="uri">https://doi.org/10.23668/psycharchives.12946</a></p></li>
+<li><p>Scholz, P., Spitz, R., Neuforn, C. M. A. Stokar von, Stuff, L.,
+&amp; <strong>Kattner, F.</strong> (2023). Whispered speech causes
+disruption of serial short-term memory. <em>Proceedings of the 39th
+Annual Meeting of the International Society for Psychophysics - Fechner
+Day 2023</em> (p. 104). 10-14 September 2023, Assisi, Italy.</p></li>
+<li><p>Bryce, D., &amp; <strong>Kattner, F.</strong> (2022). Monitoring
+accuracy and working memory: A competition for resources account.
+<em>TeaP 2022 - Abstracts of the 64th Conference of Experimental
+Psychologists</em>. 20-23 March 2022, Cologne {Online}, Germany. <a
+href="https://doi.org/10.23668/psycharchives.5677"
+class="uri">https://doi.org/10.23668/psycharchives.5677</a></p></li>
+<li><p>Clausen, A. E., Lindenkreuz, H., Kracke, H., &amp;
+<strong>Kattner, F.</strong> (2022). Visual attention guided by either
+associatively or propositionally learned valence. G. Patching (Ed.)
+<em>Proceedings of the 38th Annual Meeting of the International Society
+for Psychophysics - Fechner Day 2022</em> (p. 15). 23-26 August, Lund,
+Sweden.</p></li>
+<li><p>Clausen, A. E., &amp; <strong>Kattner, F.</strong> (2022).
+Revisiting valence in visual search tasks. <em>TeaP 2022 - Abstracts of
+the 64th Conference of Experimental Psychologists</em>. 20-23 March
+2023, Cologne {Online}, Germany. <a
+href="https://doi.org/10.23668/psycharchives.5677"
+class="uri">https://doi.org/10.23668/psycharchives.5677</a></p></li>
+<li><p>Föcker, J., Caling, A. L., Fischer, M., Cremona, S., Ihle, A.,
+Hodgson, T, &amp; <strong>Kattner, F.</strong> (2022). The effects of
+moderate and profound visual deprivation on auditory emotional
+distractor processing in a serial recall task. <em>Applied Vision
+Association (AVA) Christmas Meeting</em>. 19 December 2022, Nottingham,
+UK.</p></li>
+<li><p>Hassanzadeh, M., Ellermeier, Ellermeier, <strong>Kattner,
+F.</strong>, Theuergarten, R., Heidinger, M., &amp; Kern, A. (2022). The
+role of spatial location in the irrelevant speech effect revisited. G.
+Patching (Ed.) <em>Proceedings of the 38th Annual Meeting of the
+International Society for Psychophysics - Fechner Day 2023</em> (p. 36).
+23-26 August, Lund, Sweden.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2022).
+Reliability of the irrelevant speech effect reconsidered. G. Patching
+(Ed.) <em>Proceedings of the 38th Annual Meeting of the International
+Society for Psychophysics - Fechner Day 2023</em> (p. 27). 23-26 August,
+Lund, Sweden.</p></li>
+<li><p>Caling, A. L., Fischer, M., Ihle., A., Cremona, S., Hodgson, T.,
+Foecker, J., &amp; <strong>Kattner, F.</strong> (2021). The impact of
+emotional prosody on task irrelevant auditory distractors in a serial
+recall task in blind, visually impaired and sighted individuals: An
+online experiment. <em>46th joint annual meeting Psychology and the
+Brain (PuG)</em>. 2-4 June 2021, Tuebingen, Germany.</p></li>
+<li><p>Clausen, A. E., <strong>Kattner, F.</strong>, &amp; Westerweller,
+S. (2021). The salience of valence in visual search tasks. A. Huckauf,
+M. Baumann, M. Ernst, C. Herbert, M. Kiefer, M. Sauter (Eds.) <em>TeaP
+2021 - Abstracts of the 63rd Conference of Experimental
+Psychologists</em>. 14-16 March 2021, Ulm, Germany {Online}. <a
+href="https://doi.org/10.23668/psycharchives.5178"
+class="uri">https://doi.org/10.23668/psycharchives.5178</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, &amp; Marquis
+Favre, C. (2020). Annoyance due to vehicle sounds ismoderated by
+individual noise sensitivity. <em>Forum Acusticum</em> (pp. 505-506).
+7-11 December 2020, Lyon, France {Online}. <a
+href="https://doi.org/10.48465/fa.2020.0802"
+class="uri">https://doi.org/10.48465/fa.2020.0802</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, &amp; Raum, A.
+(2020). Cross-modal commutativity of brightness and loudness
+productions. Schoenherr, T. Hubbard, W. Stine, &amp; C. Leth-Steenson
+(Eds.) <em>Proceedings of the 36th Annual Meeting of the International
+Society for Psychophysics - Fechner Day 2020</em> (p. 17). International
+Society for Psychophysics {Online}.</p></li>
+<li><p><strong>Kattner, F.</strong>, Hanl, S., Paul, L., &amp;
+Ellermeier, W. (2020). Irrelevant sound effects on mental arithmetic.
+<em>Online Workshop Distraction and Attention</em>. 21 September 2020.
+University of Central Lancashire.</p></li>
+<li><p>Clausen, A. E., &amp; <strong>Kattner, F.</strong> (2019).
+Revisiting the prioritization of emotional information in iconic memory:
+A pre-registered replication study. C. Lange-Küttner (Ed.) <em>Annual
+Meeting of Experimental Psychologists (TEAP 2019)</em>. 15-17 April
+2019, London Metropolitan University. <a
+href="https://doi.org/10.23668/psycharchives.2468"
+class="uri">https://doi.org/10.23668/psycharchives.2468</a></p></li>
+<li><p>Clausen, A. E., Saul, S., &amp; <strong>Kattner, F.</strong>
+(2019). Investigating ERP components resulting from evaluatively
+conditioned stimuli <em>Annual Scientific Meeting of the British
+Association for Cognitive Neuroscience (BACN)</em>. 2-3 September 2019,
+Cambridge, UK.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2019). Does
+training in auditory filtering reduce the irrelevant speech effect on
+serial recall? C. Lange-Küttner (Ed.) <em>Annual Meeting of Experimental
+Psychologists (TEAP 2019)</em>. 15-17 April 2019, London Metropolitan
+University. <a href="https://doi.org/10.23668/psycharchives.2468"
+class="uri">https://doi.org/10.23668/psycharchives.2468</a></p></li>
+<li><p><strong>Kattner, F.</strong>, Ellermeier, W., Klippenstein, E.,
+&amp; Marquis Favre, C. (2018). Judging noise annoyance as a function of
+task load: Effects of noise sensitivity. F. Müller, L. Ludwigs, &amp; M.
+Kupper (Eds.) <em>Proceedings of the 34th Annual Meeting of the
+International Society for Psychophysics - Fechner Day 2018</em>
+(pp. 72-77). 20-24 August 2018, Lüneburg, Germany.</p></li>
+<li><p><strong>Kattner, F.</strong>, Coels, S., &amp; Ellermeier, W.
+(2018). Perceptual control of the irrelevant speech effect as a result
+of training on a dichotic listening task. F. Müller, L. Ludwigs, &amp;
+M. Kupper (Eds.) <em>Proceedings of the 34th Annual Meeting of the
+International Society for Psychophysics - Fechner Day 2018</em>
+(pp. 203-207). 20-24 August 2018, Lüneburg, Germany.</p></li>
+<li><p>Ueda, K., Nakajima, Y., <strong>Kattner, F.</strong>, &amp;
+Ellermeier, W. (2018). Irrelevant sound effects with locally
+time-reversed speech: Speech reversal and language familiarity <em>The
+82nd Annual Convention of the Japanese Psychological Association</em>.
+25-27 September 2018, Sendai, Japan.</p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, &amp; Hanl, S.
+(2017). The irrelevant speech effect is modified by emotional prosody.
+T. Goschke, A. Bolte, &amp; C. Kirschbaum (Eds.) <em>Abstracts of the
+59th Conference of Experimental Psychologists</em> (p. 41). 26-29 March
+2017, Dresden, Germany. <a
+href="https://doi.org/10.23668/psycharchives.5194"
+class="uri">https://doi.org/10.23668/psycharchives.5194</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Ueda, K., &amp;
+Nakajima, Y. (2017). Irrelevant sound effects with locally time-reversed
+speech. K. Ueda, H. Ito, G. B. Remijn, &amp; Y. Nakajima (Eds.)
+<em>Proceedings of the 33rd Annual Meeting of the International Society
+of Psychophysics - Fechner Day 2017</em> (pp. 42-47). Fukuoka,
+Japan.</p></li>
+<li><p><strong>Kattner, F.</strong> (2017). Specificity of perceptual
+learning in an auditory interval categorization task. K. Ueda, H. Ito,
+G. B. Remijn, &amp; Y. Nakajima (Eds.) <em>Proceedings of the 33rd
+Annual Meeting of the International Society of Psychophysics - Fechner
+Day 2017</em> (pp. 119-124). Fukuoka, Japan.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Green, C. S. (2017). The
+impact of evaluative conditioning on early sensory processing. T.
+Goschke, A. Bolte, &amp; C. Kirschbaum (Eds.) <em>Abstracts of the 59th
+Conference of Experimental Psychologists</em> (p. 161). 26-29 March
+2017, Dresden, Germany. <a
+href="https://doi.org/10.23668/psycharchives.5194"
+class="uri">https://doi.org/10.23668/psycharchives.5194</a></p></li>
+<li><p>Ueda, K., Shibata, A., Nakajima, Y., Rost, K., <strong>Kattner,
+F.</strong>, &amp; Ellermeier, W. (2017). Irrelevant sound effects with
+locally time-reversed speech: Real performance difference between German
+and Japanese native speakers? K. Ueda, H. Ito, G. B. Remijn, &amp; Y.
+Nakajima (Eds.) <em>Proceedings of the 33rd Annual Meeting of the
+International Society of Psychophysics - Fechner Day 2017</em> (p. 222).
+Fukuoka, Japan.</p></li>
+<li><p>Ueda, K., Nakajima, Y., Tamura, S., Shichida, A., Ellermeier, W.,
+<strong>Kattner, F.</strong>, Daebler, S., &amp; Neo, N. Nie (2016).
+Intelligibility of locally time-reversed speech in Chinese, English,
+German, and Japanese. <em>31st International Congress of
+Psychology</em>. 24-29 July 2016, Yokohama, Japan.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Green, C. S. (2016). Stimulus
+specificity of intradimensional and extradimensional transfer effects in
+associative learning. J. Funke, J. Rummel, &amp; A. Voss (Eds.)
+<em>Abstracts of the 58th Conference of Experimental Psychologists</em>
+(pp. 152-153). 21-23 March 2016, Heidelberg, Germany. <a
+href="https://doi.org/10.23668/psycharchives.873"
+class="uri">https://doi.org/10.23668/psycharchives.873</a></p></li>
+<li><p>Ueda, K., Nakajima, Y., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2016). A multilingual comparison of intelligibility in
+locally time-reversed speech. <em>Proceedings of the Auditory Research
+Meeting, 46</em> (3), 181-186.</p></li>
+<li><p><strong>Kattner, F.</strong>, White, P., &amp; Green, C. S.
+(2015). Cue competition effects in evaluative conditioning. <em>Small
+Group Meeting Associative and Propositional Learning</em>. 18-20 June,
+2015, Warsaw, Poland.</p></li>
+<li><p>Ueda, K., Nakajima, Y., Tamura, S., Ellermeier, W.,
+<strong>Kattner, F.</strong>, &amp; Daebler, S. (2015). The effect of
+segment duration on the intelligibility of locally time-reversed speech:
+A multilingual comparison. S. Grondin &amp; V. Laflamme (Ed.)
+<em>Proceedings of the 31st Annual Meeting of the International Society
+for Psychophysics - Fechner Day 2015</em> (p. 42). 17-21 August 2015,
+Quebec City, Canada.</p></li>
+<li><p>Birkenbusch, J., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2014). Axiomatic examination of duration perception: The
+exponent of Stevens’ Power Function varies under changes of the
+reference stimulus A. C. Schütz, K. Drewing, K. R. Gegenfurtner (Eds.)
+<em>TeaP 2014 - Abstracts of the 56th Conference of Experimental
+Psychologists</em> (p. 28). 30 March - 2 April 2014, Gießen, Germany. <a
+href="https://doi.org/10.23668/psycharchives.878"
+class="uri">https://doi.org/10.23668/psycharchives.878</a></p></li>
+<li><p>Birkenbusch, J., Ellermeier, W., &amp; <strong>Kattner,
+F.</strong> (2013). Octuplicate this interval! J. Wackermann, M.
+Wittmann, &amp; W. Skrandies (Eds.) <em>Proceedings of the 29th Annual
+Meeting of the International Society of Psychophysics - Fechner Day
+2013</em> (p. 73). 21-15 October 2013, Freiburg, Germany..</p></li>
+<li><p>Birkenbusch, J., &amp; <strong>Kattner, F.</strong> (2013).
+Pre-training performance affects configural discrimination learning. U.
+Ansorge, E. Kirchler, C. Lamm, &amp; H. Leder (Eds.) <em>Abstracts of
+the 55th Conference of Experimental Psychologists</em> (p. 329). 24-27
+March 2013, Vienna, Austria. <a
+href="https://doi.org/10.23668/psycharchives.880"
+class="uri">https://doi.org/10.23668/psycharchives.880</a></p></li>
+<li><p><strong>Kattner, F.</strong> (2013a). Do concurrent measures of
+CS valence reveal extinction of evaluative conditioning? <em>13th
+European Congress of Psychology</em>. 9-12 July 2013, Stockholm,
+Sweden..</p></li>
+<li><p><strong>Kattner, F.</strong> (2013b). Do predictiveness effects
+on overt attention in contingency learning depend on the valence of the
+outcome? U. Ansorge, E. Kirchler, C. Lamm, &amp; H. Leder (Eds.)
+<em>Abstracts of the 55th Conference of Experimental Psychologists</em>
+(p. 140). 24-27 March 2013, Vienna, Austria. <a
+href="https://doi.org/10.23668/psycharchives.880"
+class="uri">https://doi.org/10.23668/psycharchives.880</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2013).
+Magnitude production of pitch ratios: A comparison of musicians and
+non-musicians. <em>AIA-DAGA 2013 Conference on Acoustics</em> (p. 173).
+18-21 March 2013, Merano, Italy.</p></li>
+<li><p>Ueda, K., Nakajima, Y., Doumoto, K., Ellermeier, W., &amp;
+<strong>Kattner, F.</strong> (2013). Disruptive effect of unattended
+noise-vocoded speech on recall of visually presented digits: Interaction
+between the number of frequency bands and languages <em>21st
+International Congress on Acoustics - 165th Meeting of the Acoustical
+Society of America</em>. 2-7 June 2013, Montreal, Canada.</p></li>
+<li><p><strong>Kattner, F.</strong> (2012). Does evaluative conditioning
+occur with negative CS-US contingencies? A. Bröder, E. Erdfelder, B. E.
+Hilbig, T. Meiser, R. F. Pohl, &amp; D. Stahlberg (Eds.) <em>Abstracts
+of the 54. Tagung experimentell arbeitender Psychologen - TeaP 2012</em>
+(pp. 64-65). 1-4 April 2012, Mannheim, Germany. <a
+href="https://doi.org/10.23668/psycharchives.881"
+class="uri">https://doi.org/10.23668/psycharchives.881</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2012). Can
+pitch be measured on a ratio scale? C. Leth-Steensen &amp; J. R.
+Schoenherr (Ed.) <em>Proceedings of the 28th Annual Meeting of the
+International Society of Psychophysics</em> (pp. 244-249). 18-21 October
+2012, Ottawa, Canada.</p></li>
+<li><p>Birkenbusch, J., &amp; <strong>Kattner, F.</strong> (2011).
+Stimulus properties in contingency learning: The auditory scale illusion
+produces a negative patterning advantage. K. Bittrich, S. Blankenberger,
+&amp; Lukas, J. (Eds.) <em>Beiträge zur 53. Tagung experimentell
+arbeitender Psychologen</em> (p. 209). 13-16 March 2011, Halle (Saale).
+Germany. <a href="https://doi.org/10.23668/psycharchives.884"
+class="uri">https://doi.org/10.23668/psycharchives.884</a></p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Kurtze, L., Roos,
+M., Seeber, S., &amp; Bös, J. (2011a). Psychoakustische Analyse der
+Betriebsgeräusche von Photovoltaik-Wechselrichtern. <em>37. Deutsche
+Jahrestagung für Akustik - DAGA 2011</em> (p. 171). 21-24 March 2011,
+Düsseldorf, Germany.</p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Kurtze, L., Roos,
+M., Seeber, S., &amp; Bös, J. (2011b). Psychophysical scaling of the
+annoyance produced by photovoltaic inverters. <em>Forum Acusticum</em>.
+27 Juni - 1 July 2011, Aalborg, Denmark..</p></li>
+<li><p>Ellermeier, W., <strong>Kattner, F.</strong>, Ueda, K., Doumoto,
+K., &amp; Nakajima, Y. (2012). Effects of noise-vocoded speech in the
+irrelevant-sound paradigm. <em>38. Jahrestagung für Akustik - DAGA
+2012</em> (p. 336). 19-22 March 2012, Darmstadt, Germany.</p></li>
+<li><p><strong>Kattner, F.</strong> (2011). Evaluatives Konditionieren
+mit nicht-detektierten unkonditionierten Reizen: Ein
+Signalentdeckungs-Experiment. K. Bittrich, S. Blankenberger, &amp;
+Lukas, J. (Eds.) <em>Beiträge zur 53. Tagung experimentell arbeitender
+Psychologen</em> (p. 87). 13-16 March 2011, Halle (Saale). Germany. <a
+href="https://doi.org/10.23668/psycharchives.884"
+class="uri">https://doi.org/10.23668/psycharchives.884</a></p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2010a).
+Emotional valence and psychoacoustics of irrelevant speech. A.
+Bastianelli &amp; G. Vidotto (Ed.) <em>Proceedings of the 26th Annual
+Meeting of the International Society of Psychophysics</em>
+(pp. 405-408). 19-22 October 2010, Padua, Italy.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2010b).
+Manipulating contingency awareness in evaluative conditioning via
+working memory disruption. <em>Associative Learning Symposium
+(XIV)</em>. 30 March - 1 April 2010, Gregynog Hall, Wales, UK.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2010c). Die
+Rolle der phonologischen Schleife beim verbalen evaluativen
+Konditionieren. C. Frings, A. Mecklinger, D. Wentura &amp; H. Zimmer
+(Eds.) <em>Beiträge zur 52. Tagung experimentell arbeitender
+Psychologen</em> (p. 253). 22-24 March 2010, Saarbrücken, Germany. <a
+href="https://doi.org/10.23668/psycharchives.895"
+class="uri">https://doi.org/10.23668/psycharchives.895</a></p></li>
+<li><p>Kropff, M., Ellermeier, W., Thio, V., <strong>Kattner,
+F.</strong>, Gräf, M., &amp; Steinmetz, R. (2010). Bedarf für ein
+sensorbasiertes computergestütztes Störungs-Management-System R. Bruder
+(Ed.) <em>56. Frühjahrskongress der Gesellschaft für
+Arbeitswissenschaft</em>. 24-26 March 2010, Darmstadt, Germany.</p></li>
+<li><p><strong>Kattner, F.</strong>, &amp; Ellermeier, W. (2009). The
+influence of attention and contingency awareness on explicit and
+implicit measures of evaluative conditioning. <em>Associative Learning
+Symposium (XIII)</em>. 31 March - 2 April 2009, Gregynog Hall, Wales,
+UK.</p></li>
+<li><p><strong>Kattner, F.</strong>, Körber, B., &amp; Hammerl, M.
+(2007). Die Erfassung pupillometrischer Daten bei evaluativer
+Konditionierung. K. F. Wender, S. Mecklenbrauker, G. D. Rey, T. Wehr
+(Eds.) <em>Beiträge zur 49. Tagung experimentell arbeitender
+Psychologen</em> (p. 310). 26-28 March 2007, Trier, Germany. <a
+href="https://doi.org/10.23668/psycharchives.887"
+class="uri">https://doi.org/10.23668/psycharchives.887</a></p></li>
+</ol>
+</div>
+<div id="monographs-and-book-chapters" class="section level2">
+<h2><em>Monographs and Book Chapters</em></h2>
+<p><strong>Kattner, F.</strong> (2021). <em>Sensory and cognitive
+mechanisms of auditory distraction</em>. Habilitation thesis. Technical
+University of Darmstadt. <a
+href="https://d-nb.info/1255704918/04">Contents</a>, <a
+href="https://d-nb.info/1255704918">Link Deutsche
+Nationalbibliothek</a></p>
+<p><strong>Kattner, F.</strong> (2011). <em>Cognitive factors in
+evaluative conditioning: The role of attention, working memory, and
+contingency appraisal</em>. PhD thesis. Technical University of
+Darmstadt: <a
+href="https://tuprints.ulb.tu-darmstadt.de/2680/">TUDprints</a>.</p>
+<p>Bösche, W. &amp; <strong>Kattner, F.</strong> (2011). Using a violent
+multiplayer game as a virtual classroom for a course on violent video
+games. In P. Felicia (ed.), <em>Handbook of Research on Improving
+Learning and Motivation through Educational Games: Multidisciplinary
+Approaches</em> (pp. 777-805). Hershey, PA: IGI Global.</p>
+<p><strong>Kattner, F.</strong> (2008). <em>Die Veränderung von
+Einstellungen durch bloße Konditionierung: Was lässt sich an der Pupille
+ablesen?</em>. [Changing attitudes through conditioning: Evidence from
+pupillometry.]. Saarbrücken: VDM. <a
+href="https://www.buecher.de/shop/buecher/die-veraenderung-von-einstellungen-durch-blosse-konditionierung/kattner-florian/products_products/detail/prod_id/23566166/">Link
+to buecher.de</a></p>
+<!--
+### **2024**
+
+**Kattner, F.** (2024). False memories through auditory distraction: When irrelevant speech produces memory intrusions in the absence of semantic interference. _Quarterly Journal of Experimental Psychology_. [https://doi.org/10.1177/17470218241235654](https://journals.sagepub.com/eprint/24MJIKG9357Z9JGFYPBG/full)
+
+
+### **2023**
+
+Bryce, D., **Kattner, F.**, Birngruber, T., & Wellingerhof, P. (2023). Monitoring accuracy suffers when working memory demands increase: Evidence of a dependent relationship. _Journal of Experimental Psychology: Learning, Memory, and Cognition, 49_(12), 1909–1922. https://doi.org/10.1037/xlm0001262
+
+**Kattner, F.**, Fischer, M., Caling, A., Cremona, S., Ihle, A., Hodgson, T., & Föcker, J. (2023). The disruptive effects of changing-state sound and emotional prosody on verbal short-term memory in blind, visually impaired, and sighted listeners. _Journal of Cognitive Psychology_. [https://doi.org/10.1080/20445911.2023.2186771](https://www.tandfonline.com/eprint/ADI2GEMEZKPSNWGCHGDI/full?target=10.1080/20445911.2023.2186771 ) [(Supplemental Material)](https://www.tandfonline.com/doi/suppl/10.1080/20445911.2023.2186771)
+
+**Kattner, F.** & Gast, A. (2023). Scaling preferences using probabilistic choice models: Is there a ratio-scale representation of subjective liking? *Psychological Research, 87*, 1953-1965. [https://doi.org/10.1007/s00426-022-01775-8](https://link.springer.com/article/10.1007/s00426-022-01775-8)
+
+**Kattner, F.**, Hanl, S., Paul, L., & Ellermeier, W. (2023). Task-specific auditory distraction in serial recall and mental arithmetic. *Memory & Cognition, 51*, 930–951. [https://doi.org/10.3758/s13421-022-01363-6](https://link.springer.com/article/10.3758/s13421-022-01363-6) [(PDF)](https://rdcu.be/cXALA)
+
+**Kattner, F.**, Hassanzadeh, M., & Ellermeier, W. (2023). _The role of spatial location in irrelevant speech revisited: A registered replication of Jones and Macken (1995)_. In principle acceptance of Version 3 by Peer Community in Registered Reports. https://doi.org/10.17605/OSF.IO/2TB8E
+
+
+
+### **2022**
+
+Ellermeier, W., **Kattner, F.**, & Raum, A. (2022). Correction to: Cross‑modal commutativity of magnitude productions.  *Attention, Perception, & Psychophysics, 84*, 322-323. [https://doi.org/10.3758/s13414-021-02385-z](https://link.springer.com/content/pdf/10.3758/s13414-021-02385-z.pdf)
+
+**Kattner, F.** & Bryce, D. (2022). Attentional control and metacognitive monitoring of the effects of different types of task-irrelevant sound on serial recall. *Journal of Experimental Psychology: Human Perception and Performance, 48*(2), 139-158. [https://doi.org/10.1037/xhp0000982](https://doi.apa.org/record/2022-17113-001)
+
+**Kattner, F.**, Richardson, B. H., & Marsh, J. E. (2022). The benefit of foreknowledge in auditory distraction depends on the intelligibility of pre-exposed speech. *Auditory Perception & Cognition, 5*(3-4), 151-168.  [https://doi.org/10.1080/25742442.2022.2089525](https://www.tandfonline.com/eprint/TVMG7REF2URCMUZZBNCQ/full?target=10.1080/25742442.2022.2089525) 
+
+Marsh, J. E., **Kattner, F.**, & Ruhnau, P. (2022). Research collection: On theoretical advancement in auditory distraction research. *Auditory Perception & Cognition, 4*(3-4), 133-138. [https://doi.org/10.1080/25742442.2022.2036524](https://doi.org/10.1080/25742442.2022.2036524)
+
+### **2021**
+
+Ellermeier, W., **Kattner, F.**, & Raum, A. (2021). Cross-modal commutativity of magnitude productions of loudness and brightness. *Attention, Perception, & Psychophysics, 83*, 2955-2967. [https://doi.org/10.3758/s13414-021-02324-y](https://link.springer.com/article/10.3758%2Fs13414-021-02324-y)
+
+**Kattner, F.** (2021). Transfer of working memory training to the inhibitory control of auditory distraction. *Psychological Research, 85*, 3152-3166. [https://doi.org/10.1007/s00426-020-01468-0](https://link.springer.com/article/10.1007/s00426-020-01468-0)
+
+Toovey, B. R., **Kattner, F.**, & Schubert, T. (2021). Cross-modal transfer following auditory task-switching training in old adults. *Frontiers in Psychology, 12*, 615518. [https://doi.org/10.3389/fpsyg.2021.615518](https://www.frontiersin.org/articles/10.3389/fpsyg.2021.615518/)
+
+### **2020**
+
+Dale, G., **Kattner, F.**, Bavelier, D., & Green, C. S. (2020). Cognitive abilities of action-videogame and role-playing videogame players: Data from a Massive Open Online Course. *Psychology of Popular Media, 9*(3), 347–358. [https://doi.org/10.1037/ppm0000237](https://psycnet.apa.org/record/2019-23599-001)
+
+Ellermeier, W., **Kattner, F.**, Klippenstein, E., Kreis, M., & Marquis-Favre, C. (2020). Short-term noise annoyance and electrodermal response as a function of sound-pressure level, cognitive task load, and noise sensitivity. *Noise & Health, 22*(105), 46-55. [https://doi.org/10.4103/nah.NAH_47_19](https://www.noiseandhealth.org/text.asp?2020/22/105/46/304702)
+
+**Kattner, F.**^+^ & Clausen, A.^+^ (2020). Revisiting the prioritization of emotional information in iconic memory. *Royal Society Open Science, 7*, 191507. [https://doi.org/10.1098/rsos.191507](https://dx.doi.org/10.1098/rsos.191507)
+
+**Kattner, F.** & Ellermeier, W. (2020). Distraction at the cocktail party: Attenuation of the irrelevant speech effect after a training of auditory selective attention. *Journal of Experimental Psychology: Human Perception and Performance, 46*(1), 10-20. [https://doi.org/10.1037/xhp0000695](http://dx.doi.org/10.1037/xhp0000695)
+
+**Kattner, F.** & Meinhardt, H. (2020). Dissociating the disruptive effects of irrelevant music and speech on serial recall of tonal and verbal sequences. *Frontiers in Psychology, 11*, 346.  [https://doi.org/10.3389/fpsyg.2020.00346](https://www.frontiersin.org/articles/10.3389/fpsyg.2020.00346/full)
+
+**Kattner, F.**^+^ & Reimer, C.^+^ (2020). Dissociating central and auditory attention: Is there a shared bottleneck for response selection and auditory search? *Quarterly Journal of Experimental Psychology, 73*(10), 1564-1574.  [https://doi.org/10.1177/1747021820928030](https://journals.sagepub.com/eprint/6PFECTH2HXAKXKVIV9HF/full)
+
+### **2019**
+
+**Kattner, F.** & Green, C. S. (2019). Enhanced early visual processing after evaluative conditioning. *Acta Psychologica, 197*, 1-9.  [https://doi.org/10.1016/j.actpsy.2019.04.009](https://www.ncbi.nlm.nih.gov/pubmed/31030084)
+
+**Kattner, F.**, Samaan, L., & Schubert, T. (2019). Cross-modal transfer after auditory task-switching training. *Memory & Cognition, 47*(5), 1044-1061. [https://doi.org/10.3758/s13421-019-00911-x](https://link.springer.com/article/10.3758%2Fs13421-019-00911-x)
+
+Stiller, A.-K., **Kattner, F.**, Gunzenhauser, C., & Schmitz, B. (2019). The effect of positive reappraisal on the availability of self-control resources and self-regulated learning. *Educational Psychology, 39*(1), 86-111.  [https://doi.org/10.1080/01443410.2018.1524851](https://www.tandfonline.com/doi/abs/10.1080/01443410.2018.1524851?journalCode=cedp20)
+
+Ueda, K., Nakajima, Y., **Kattner, F.**, & Ellermeier, W. (2019). Irrelevant speech effects with locally time-reversed speech: Native vs non-native language. *Journal of the Acoustical Society of America, 145*, 3686-3694.  [https://doi.org/10.1121/1.5112774](https://www.kog.psychologie.tu-darmstadt.de/media/angewandtekognitionspsychologie/pubs/Ueda_Nakaj_Kattn_Ell_JASA_2019.pdf)
+
+### **2018**
+
+**Kattner, F.** & Ellermeier, W. (2018). Emotional prosody of task-irrelevant speech interferes with the retention of serial order. *Journal of Experimental Psychology: Human Perception and Performance, 44*(8), 1303-1312. [https://doi.org/10.1037/xhp0000537](http://psycnet.apa.org/record/2018-14658-001)
+
+### **2017**
+
+Green, C. S., **Kattner, F.**, Eichenbaum, A., Bediou, B., Adams, D., Mayer, R., & Bavelier, D. (2017). Playing some video games but not others is related to cognitive abilities – a critique of Unsworth et al. (2015). *Psychological Science, 28*(5), 679-682. [https://doi.org/10.1177/0956797616644837](http://journals.sagepub.com/doi/abs/10.1177/0956797616644837)
+
+**Kattner, F.**, Cochrane, A., & Green, C. S. (2017). Trial-dependent psychometric functions accounting for perceptual learning in 2-AFC discrimination tasks. *Journal of Vision, 17*(11), 3. [https://doi.org/10.1167/17.11.3](http://jov.arvojournals.org/article.aspx?articleid=2653463)
+
+**Kattner, F.**^+^, Cochrane, A.^+^, Cox, C. R., Gorman, T., & Green, C. S. (2017). Perceptual learning generalization from sequential perceptual training as a change in learning rate. *Current Biology, 27*(6), 840-846.  [https://doi.org/10.1016/j.cub.2017.01.046](http://www.cell.com/current-biology/fulltext/S0960-9822(17)30081-7)
+
+Ueda, K., Nakajima, Y., Ellermeier, W., & **Kattner, F.** (2017). Intelligibility of locally time-reversed speech: A multilingual comparison. *Scientific Reports, 7*, 1782. [https://doi.org/10.1038/s41598-017-01831-z](https://www.nature.com/articles/s41598-017-01831-z.pdf)
+
+### **2016**
+
+Gast, A.^+^ & **Kattner, F.**^+^ (2016). Single-trial evaluative conditioning can be moderated by instructed forgetting. *Learning & Behavior, 44*, 260-269. [https://doi.org/10.3758/s13420-016-0210-9](http://link.springer.com/article/10.3758%2Fs13420-016-0210-9)
+
+**Kattner, F.**, Cox, C. R., & Green, C. S. (2016). Transfer in rule-based category learning depends on the training task. *PLoS ONE, 11*(10): e0165260. [https://doi.org/10.1371/journal.pone.0165260](http://journals.plos.org/plosone/article/asset?id=10.1371/journal.pone.0165260.PDF)
+
+**Kattner, F.** & Green, C. S. (2016). Transfer of dimensional associability in human contingency learning. *Journal of Experimental Psychology: Animal Learning and Cognition, 42*(1), 15-31. [https://doi.org/10.1037/xan0000082](https://www.apa.org/pubs/journals/features/xan-xan0000082.pdf)
+
+### **2015**
+
+Birkenbusch, J., Ellermeier, W., & **Kattner, F.** (2015). Octuplicate this interval! Axiomatic examination of the ratio properties of duration perception. *Attention, Perception, & Psychophysics, 77*, 1767-1780.  [https://doi.org/10.3758/s13414-015-0846-0](https://link.springer.com/article/10.3758/s13414-015-0846-0)
+
+Ellermeier, W., **Kattner, F.**, Ueda, K., Doumoto, K., & Nakajima, Y. (2015). Memory disruption by irrelevant noise-vocoded speech: Effects of native language and the number of frequency bands. *Journal of the Acoustical Society of America, 138*, 1561-1569.  [https://doi.org/10.1121/1.4928954](http://scitation.aip.org/content/asa/journal/jasa/138/3/10.1121/1.4928954)
+
+Eichenbaum A., **Kattner F.**, Bradford D., Gentile D. A., Choo, H., Chen, V. H. H., Khoo, A., & Green C. S. (2015). The role of game genres and the development of internet gaming disorder in school-aged children. *Journal of Addictive Behaviors, Therapy & Rehabilitation, 4*(3), 1-7. [https://doi.org/10.4172/2324-9005.1000141](https://www.scitechnol.com/peer-review/the-role-of-game-genres-and-the-development-of-internet-gaming-disorder-in-school-aged-children-0Tkd.php?article_id=3900)
+
+Eichenbaum, A.^+^, **Kattner, F.**^+^, Bradford, D., Gentile, D. A., & Green, C. S. (2015). Role-playing and real-time strategy games associated with greater probability of internet gaming disorder. *Cyberpsychology, Behavior, and Social Networking, 18*, 480-485.  [https://doi.org/10.1089/cyber.2015.0092](https://pubmed.ncbi.nlm.nih.gov/26252934/)
+
+Green, C. S., **Kattner, F.**, Siegel, M. H., Kersten, D., & Schrater, P. R. (2015). Differences in perceptual learning transfer as a function of training task. *Journal of Vision, 15*(10), 5. [https://doi.org/10.1167/15.10.5](http://jov.arvojournals.org/article.aspx?articleid=2429948)
+
+**Kattner, F.** (2015). Transfer of absolute and relative predictiveness in human contingency learning. *Learning & Behavior, 43*, 32-43.  [https://doi.org/10.3758/s13420-014-0159-5](http://link.springer.com/article/10.3758/s13420-014-0159-5)
+
+**Kattner, F.** & Green, C. S. (2015). Cue competition in evaluative conditioning as a function of the learning process. *Acta Psychologica, 162*, 40-50. [https://doi.org/10.1016/j.actpsy.2015.09.013](http://www.sciencedirect.com/science/article/pii/S0001691815300615)
+
+Snell, N., **Kattner, F.**, Rokers, B., & Green, C. S. (2015). Orientation transfer in vernier and stereoacuity training. *PLoS ONE, 10*(12): e0145770. [https://doi.org/10.1371/journal.pone.0145770](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0145770)
+
+### **2014**
+
+Ellermeier, W., **Kattner, F.**, Kurtze, L., & Bös, J. (2014). Psychoacoustic characterization of the noise produced by photovoltaic inverters. *Acta Acustica united with Acustica, 100*(6), 1120-1128.  [https://doi.org/10.3813/AAA.918791](https://www.ingentaconnect.com/content/dav/aaua/2014/00000100/00000006/art00014)
+
+**Kattner, F.** (2014). Reconsidering the (in)sensitivity of evaluative conditioning to reinforcement density and CS-US contingency. *Learning and Motivation, 45*, 15-29. [https://doi.org/10.1016/j.lmot.2013.09.002](http://www.sciencedirect.com/science/article/pii/S0023969013000349)
+
+**Kattner, F.** & Ellermeier, W. (2014a). Irrelevant speech does not interfere with serial recall in early blind listeners. *Quarterly Journal of Experimental Psychology, 67*(11), 2207-2217. [https://doi.org/10.1080/17470218.2014.910537](https://journals.sagepub.com/doi/10.1080/17470218.2014.910537)
+
+**Kattner, F.** & Ellermeier, W. (2014b). Fractionation of pitch intervals: An axiomatic study testing monotonicity, commutativity, and multiplicativity in musicians and non-musicians. *Attention, Perception, & Psychophysics, 76*(8), 2508-2521.  [https://doi.org/10.3758/s13414-014-0674-7](http://link.springer.com/article/10.3758%2Fs13414-014-0674-7)
+
+### **before 2014**
+
+**Kattner, F.**, Ellermeier, W., & Tavakoli, P. (2012). Both trace and delay conditioning of evaluative responses depend on contingency awareness. *Learning and Motivation, 43*, 35-47. [https://doi.org/10.1016/j.lmot.2012.01.004](http://www.sciencedirect.com/science/article/pii/S0023969012000057)
+
+**Kattner, F.** (2012). Revisiting the relation between contingency awareness and attention: Evaluative conditioning relies on a contingency focus. *Cognition and Emotion, 26*(1), 166-175. [https://doi.org/10.1080/02699931.2011.565036](http://www.tandfonline.com/doi/full/10.1080/02699931.2011.565036)
+
+Bösche, W. & **Kattner, F.** (2011). Fear of (serious) digital games and game-based learning? *International Journal of Game-Based Learning, 1*(3), 1-15. [https://doi.org/10.4018/ijgbl.2011070101](https://www.igi-global.com/article/fear-serious-digital-games-game/56311)
+
+**Kattner, F.** & Ellermeier, W. (2011). Does evaluative learning rely on the perception of contingency? Manipulating contingency and US density during evaluative conditioning. *Experimental Psychology, 58*(5), 391-399.  [https://doi.org/10.1027/1618-3169/a000108](http://econtent.hogrefe.com/doi/abs/10.1027/1618-3169/a000108?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed&)
+
+^+^ authors contributed equally
+
+-->
+<!--
+### **2024**
+
+Clausen, A. E., **Kattner, F.**, & Ellermeier, W. (2024). Affective valence affects speech intelligibility in noise. _SPIN2024 - 15th Speech in Noise Workshop_. 11-12 January 2024, Potsdam, Germany. [Abstract](https://2024.speech-in-noise.eu/?p=programme&id=73)
+
+**Kattner, F.**, Stokar von Neuforn, C. M. A., Scholz, P. F., Downing, L., & Föcker, J. (2024). Effects of task-irrelevant whispered speech on short-term memory. _15th Speech in Noise Workshop (SPIN2024)_, Potsdam, Germany. Zenodo. https://doi.org/10.5281/zenodo.10459814
+
+### **2023**
+
+Clausen, A. E., Ellermeier, W., & **Kattner, F.** (2023). Does speech intelligibility depend on affective valence? [*Proceedings of the 39th Annual Meeting of the International Society for Psychophysics - Fechner Day 2023*](http://fondazionepatriziopaoletti.org/wp-content/uploads/2023/09/Proceedings-Fechner-Day-2023.pdf) (p. 16), Assisi, Italy, 10-14 September 2023.
+
+Clausen, A. E. & **Kattner, F.** (2023). Valence in Feature and Conjunction Search. *65th TeaP (Tagung experimentell arbeitender Psychologen)*, 26-29 March 2023, University of Trier.
+
+<p><details><summary>Abstract</summary><small>
+In two prior studies, we observed that the subjective liking acquired through evaluative conditioning affects visual search times, in particular when set size is changing (presented at TeaP 2022, Cologne). In the present study, we test whether conditioned valence affects visual feature and conjunction search to the same extent. Specifically, if evaluative conditioning induces a bias in bottom-up attentional control, (i.e., changing the stimulus salience), then it may be expected to affect conjunction search more than feature search because feature search is already characterized by clear salience difference between the targets and distractors. Therefore, stimuli were paired with either positive, negative or neutral images in an evaluative conditioning phase prior to being used as target stimuli. In the subsequent visual search task, sixteen stimuli were placed on the screen containing the target or not. In the feature search condition, the target differed from the distractors in only one feature (e.g. colour), while two features were relevant to identify the target in the conjunction search task. As a result of successful evaluative conditioning, the acquired valence of targets was either positive, negative, or neutral, whereas distractors had not been presented previously to the participants. Positively evaluated targets were found slightly faster than neutral and negative targets in the visual search task, and this effect did not differ as a function of whether it was a feature or conjunction search task. Limitations of the study, such as the conditioning material used, are discussed.
+</small></details></p>
+
+Conrad, S. & **Kattner, F.** (2023). Predicting age differences in auditory distraction based on perceptual filtering and working memory capacity. *65th TeaP (Tagung experimentell arbeitender Psychologen)*, 26-29 March 2023, University of Trier.
+
+<p><details><summary>Abstract</summary><small>
+The duplex mechanism account postulates two functionally distinct forms of auditory distraction in short-term memory. The changing-state effect is associated with task-specific interference of perceptual changes in acoustical stimuli and deliberate serial-order processing. In contrast, the auditory deviation effect is supposed to be due to a more general diversion of attentional resources, which is more dependent on individual cognitive control capacities. Here, we test the hypothesis that the changing-state effect is related to perceptual distractor filtering, whereas the deviation effect is related to working memory capacity. While both the ability to filter distractors from further cognitive processing and the working memory capacity are assumed to decline with age, the empirical evidence for differences in the two forms of irrelevant sound effects between younger and older adults is inconclusive. The aim of the present study is to predict the age differences in the changing-state and deviation effects based on individual differences in distractor filtering and working memory capacities. Therefore, two age groups (18 to 30 years and over 60 years) completed a serial and non-serial short-term memory task while being exposed to different types of irrelevant sound. In line with previous findings, individual differences in working memory capacity (i.e., operation span) were related to the auditory deviation effect, but not the changing-state effect. In addition, participants distractor filtering abilities, as measured with an auditory flanker task, predicted the size of the changing-state effect.
+</small></details></p>
+
+Conrad, S. & **Kattner, F.** (2023). Auditory task switching and distractor filtering  as a function of working memory capacity and age. [*Proceedings of the 39th Annual Meeting of the International Society for Psychophysics - Fechner Day 2023*](http://fondazionepatriziopaoletti.org/wp-content/uploads/2023/09/Proceedings-Fechner-Day-2023.pdf) (p. 25), Assisi, Italy, 10-14 September 2023.
+
+Ellermeier, W. & **Kattner, F.** (2023). Cross-modal and intra-modal commutativity of magnitude productions compared. [*Proceedings of the 39th Annual Meeting of the International Society for Psychophysics - Fechner Day 2023*](http://fondazionepatriziopaoletti.org/wp-content/uploads/2023/09/Proceedings-Fechner-Day-2023.pdf) (p. 29), Assisi, Italy, 10-14 September 2023. [Proceedings](http://fondazionepatriziopaoletti.org/wp-content/uploads/2023/09/Proceedings-Fechner-Day-2023.pdf)
+
+Hassanzadeh, M., Ellermeier, W., & **Kattner, F.** (2023). The role of spatial location in irrelevant speech revisited: Replication of Jones and Macken (1995). [*Proceedings of the 39th Annual Meeting of the International Society for Psychophysics - Fechner Day 2023*](http://fondazionepatriziopaoletti.org/wp-content/uploads/2023/09/Proceedings-Fechner-Day-2023.pdf) (p. 37), Assisi, Italy, 10-14 September 2023. 
+
+Hassanzadeh, D. M., Theuergarten, r., Ellermeier, W., & **Kattner, F.** (2023). Studying memory disruption by ‘irrelevant’ speakers in a virtual-reality scenario. *65th TeaP (Tagung experimentell arbeitender Psychologen)*, 26-29 March 2023, University of Trier.
+
+<p><details><summary>Abstract</summary><small>
+The irrelevant speech effect (ISE) refers to the disruption of verbal short-term memory by background speech. It has been studied in numerous laboratory experiments, which typically, exhibit low ecological validity compared with a real-life environment with multiple speech sources. Therefore, we set out to investigate the ISE in a virtual reality (VR) scenario permitting to position both target and interfering speakers in audio-visual space. In Experiment 1, participants were exposed to either a slow (1 syllable / 700-ms; N = 39) or a fast (1 syllable / 200-ms; N = 40) presentation rate of a sequence of task-irrelevant letters seamlessly uttered by either one or three distractor speakers distributed in space while they had to memorize a sequence of digits pronounced (at a rate of 1/s) by a target speaker. The results indicate that while the basic ISE is robustly replicated in VR, more complex spatial effects based on the auditory segregation of speakers failed to reach statistical significance. In Experiment 2, the auditory presentation of the to-be-remembered material (target speaker straight ahead) was contrasted with its visual presentation (digits presented on a virtual laptop) while improving the spatial layout of the audio-visual scene (N = 60). The results are discussed in terms of the role of spatial auditory streaming in modulating the memory impairment produced by distracting speech.
+</small></details></p>
+
+**Kattner, F.** (2023). Does irrelevant speech increase the susceptibility to experimentally induced false memories? *65th TeaP (Tagung experimentell arbeitender Psychologen)*, 26-29 March 2023, University of Trier.
+
+<p><details><summary>Abstract</summary><small>
+It is well known that task-irrelevant speech interferes with the retention of information in short-term memory, in particular when the to-be-remembered information is verbal and when the items are to be recalled in serial order. Much less is known about the effects of irrelevant sound on the interference with information from long-term memory, such as the semantic-associative networks leading to false memories. The aim of the present study is to test whether different types of background speech during encoding of semantically related word lists affect the occurrence of memory intrusions that were induced with the Deese-Roediger-McDermott paradigm. It was found across two experiments (one online and one in the laboratory) that irrelevant speech significantly increased the proportion of false recognitions of critical lures (i.e., words that were semantically associated with the lists), compared to noise or silence. In addition, unexpected sounds within the irrelevant utterances (an acoustical deviant or a taboo word) also affected the recognition of presented words, but there was no further influence on false memories. These results are consistent with attentional accounts of auditory distraction, postulating that any changes in the auditory environment capture attention from the focal task. In the present context, irrelevant speech may have diverted attention from the identity of to-be-remembered words (verbatim traces), thus leading to encoding of gist traces only, which produce false memories for associated words.
+</small></details></p>
+
+Scholz, P., Spitz, R. M. M., Stokar von Neuforn, C. M. A., Stuff, L. T. V., & **Kattner, F.** (2023). Whispered speech causes disruption of serial short-term memory. [*Proceedings of the 39th Annual Meeting of the International Society for Psychophysics - Fechner Day 2023*](http://fondazionepatriziopaoletti.org/wp-content/uploads/2023/09/Proceedings-Fechner-Day-2023.pdf) (p. 104), Assisi, Italy, 10-14 September 2023. 
+
+
+
+### **2022**
+
+Bryce, D. & Kattner, F. (2022). *Monitoring accuracy and working memory: A competition for resources account*. TeaP 2022, 20-23 March 2022, Cologne {Online}, Germany.
+
+<p>
+<details>
+<summary>Abstract</summary>
+<small>
+  Knowing what one knows and accurately monitoring one’s own capacities and performance on a moment-to-moment basis are important determinants of both immediate task success and educational achievement. Individual differences in such metacognitive monitoring are well documented, but what determines an individual’s monitoring accuracy in a particular context is yet to be fully understood. One candidate contributor to monitoring accuracy is working memory. In this study, we investigated whether and how working memory contributes to the accuracy of monitoring processes. Up until now, most evidence for a positive relationship between working memory and monitoring accuracy has been provided by correlational studies. Here, an experimental approach was applied in which the working memory demands of the task were varied and the impact on monitoring accuracy assessed. In two out of three experiments, monitoring accuracy suffered when working memory demands increased. These results indicate that the overall demands of the task determine whether participants engage in more effortful direct online monitoring or rather integrate various cues to generate confidence judgements. Further, it appears that the processes involved in direct online monitoring compete for resources with working memory. 
+</small>
+</details>
+</p>
+
+Clausen, A. & Kattner, F. (2022). *Revisiting valence in visual search tasks*. TeaP 2022, 20-23 March 2022, Cologne {Online}, Germany.
+
+<p>
+<details>
+<summary>Abstract</summary>
+<small>
+In two prior studies, we observed that valence affects visual search times (presented at TeaP 2021, Ulm). In one experiment, positively and negatively conditioned targets were detected more quickly than neutral targets. In the second experiment, we observed a reduction of the response time difference between two set sizes of stimuli (8 and 16) for negatively conditioned targets, suggesting that negative valence facilitated target search. Here we present three experiments to investigate further possible effects of valence on reaction time in a visual search task in accordance to set size as well as in regards to feature and conjunction search. This will provide further information on the parameters when valence appears to be a salient stimulus feature leading to exogenous attention, enhancing stimulus processing and thereby reducing search times. In Experiment 1, targets were paired with positive images, and Experiments 2-3 targets were paired with positive, neutral, or negative images during evaluative conditioning. In Experiment 1, feature and conjunction search was contrasted at two different set sizes (8 and 16 items). In Experiment 2, participants were asked to conduct a feature search with two different set sizes of stimuli (8 and 16), and in Experiment 3, set size (16 items) was held constant across trials for both feature and conjunction search. Differences in reaction times were expected between neutral and negative as well as neutral and positive targets.
+</small>
+</details>
+</p>
+
+Clausen, A. E., Lindenkreuz, H., Kracke, H., & Kattner, F. (2022). Visual attention guided by either associatively or propositionally learned valence. *Proceedings of the 38th Annual Meeting of the International Society for Psychophysics - Fechner Day 2022* (p. 15), Lund, Sweden, 23-26 August.
+
+<p>
+<details>
+<summary>Abstract</summary>
+<small>
+The learning processes involved in evaluative conditioning (EC) has been a topic of discussion for more than four decades. EC refers to the change in valence of a formerly neutral stimulus after having been paired with an affective unconditioned stimulus (US). The present experiment is  an  attempt  to  contribute  to  the  discussion  of  propositional  and  associative  learning mechanisms  involved  in  EC.  Therefore,  we  tested  whether  (1)  different  processes  during learning  (propositional  vs.  associative)  produce  similar  magnitudes  of  EC,  and  (2)  visual attention  is  influenced  more  by  associative  than  by  propositional  EC.  In  a  mixed  design participants  were  randomly  assigned  to  either  a  group  that  had  to  respond  quickly  to  the  US (fostering  automatic  associative  learning)  or  a  group  that  was  asked  to  predict  the  valence (positive, negative, or neutral) of each US (propositional learning). We expect that evaluative ratings change as a function of the valence of the US after both associative and propositional EC, but contingency awareness is expected to be higher after propositional learning. Inaddition, an associatively acquired valence is expected to be reflected more strongly in visual attention, as measured with a visual search task with the conditioned stimulus as the target.
+</small>
+</details>
+</p>
+
+Ellermeier, W. & Kattner, F. (2022). Reliability of the irrelevant speech effect reconsidered. *Proceedings of the 38th Annual Meeting of the International Society for Psychophysics - Fechner Day 2022* (p. 27), Lund, Sweden, 23-26 August.
+
+<p>
+<details>
+<summary>Abstract</summary>
+<small>
+The susceptibility to distraction by irrelevant sound differs considerably between individuals. In  an  article  published  some  25  years  ago  (Ellermeier  &  Zimmer,  1997),  we  showed  that  it remains relatively stable over time (test-retest reliability: rtt= 0.45), and, when correcting for the low internal consistency of the trial-by-trial measurements, yields a stability coefficient as high as 0.82. The present study is the first to attempt to replicate this finding, while adding new experimental conditions not investigated in the original study, such as a steady-state distractor and  irrelevant  sound  containing  unexpected  acoustical  deviations.  Furthermore,  data  were gathered  for  different  samples,  both  online  and  in  the  laboratory.  Initial  analysis  of  a  data collection still in progress indicates that the moderate reliability of the irrelevant-speech effect (contrasting  performance  in  silence  with  changing-state  speech)  may  be  replicated.  A  more detailed analysis of the effects of the different distractor conditions, however, focusing on the changing-state  effect,  the  steady-state  effect,  or  the  deviation  effect,  reveals  test-retest correlations that are much lower. This pattern of outcomes will be interpreted on the basis of more  recent  theorizing  about  the  irrelevant  sound  effect,  particularly  the  duplex-mechanism account (Hughes et al., 2005, 2007).
+</small>
+</details>
+</p>
+
+Hassanzadeh, M., Ellermeier, W., Kattner, F., Theuergarten, R., Heidinger, M., & Kern, A. (2022). The role of spatial location in the irrelevant speech effect revisited. *Proceedings of the 38th Annual Meeting of the International Society for Psychophysics - Fechner Day 2022* (p. 36), Lund, Sweden, 23-26 August.
+
+<p>
+<details>
+<summary>Abstract</summary>
+<small>
+The irrelevant speech effect (ISE) refers to the disruption of short-term memory by background speech that significantly impairs the recall of visually or auditorily presented content, such as lists  of letters  or  numbers.  While  typically,  this  effect  has  been  studied  by  presenting  the interfering  speech  via  headphones,  with  no,  or  at  best  primitive  spatial  cues  (e.g.,  Jones  & Macken, 1995), the present experiment used a "virtual reality" (VR) setup to position interfering speakers (both visibly and audibly) in space. In a "virtual café" scenario, participants listened to a target speaker while trying to ignore three distractor speakers positioned at different angles in  space  and  producing  either  steady-state  (repeating  a  single  letter)  or  changing-state interference (a sequence of different letters). Preliminary results of an initial experiment in VR using both a fast (N=39 participants) and a slow rate of presentation (N=28 participants) for the interfering sounds suggest that while the classical ‘changing-state’ effect is obtained in VR as well, the expected ‘streaming by location’, i.e., participants exploiting the spatial layout to perceptually separate the interfering utterances by assigning them to different speakers is weak at  best.  Moreover,  the  prediction  that  the  streaming  effect  should  be  greatest  for  the  fast presentation rate is not born out by the present results.
+</small>
+</details>
+</p>
+
+Föcker, J., Caling, A. L., Fischer, M., Cremona, S., Ihle, A., Hodgson, T., & Kattner, F. (2022). The effects of moderate and profound visual deprivation on auditory emotional distractor processing in a serial recall task. *Applied Vision Association (AVA) Christmas Meeting 2022*, 19 December, Nottingham, UK. [Link](http://www.theava.net/meetings.php?s=christmas-2022-ava-meeting)
+
+
+### **2021**
+
+Caling, A. L., Fischer, M., Ihle., A., Cremona, S., Hodgson, T., Foecker, J., & **Kattner, F.** (2021). The impact of emotional prosody on task irrelevant auditory distractors in a serial recall task in blind, visually impaired and sighted individuals: An online experiment. _46th joint annual meeting Psychology and the Brain (PuG)_. 2-4 June 2021, Tuebingen, Germany. [Poster](img/Official PUG Poster ALC_final.png)
+
+Clausen, A., **Kattner, F.**, & Westerweller, S. (2021). The salience of valence in visual search tasks. Paper to be presented at _63. Tagung experimentell arbeitender Psychologen_ [(TeaP@home 2021)](https://cops.ifp.uni-ulm.de/teap2021/index.html). 14-16 March 2021, Ulm, Germany. 
+
+### **2020**
+
+Ellermeier, W., **Kattner, F.**, & Marquis-Favre, C. (2020). Annoyance due to vehicle sounds ismoderated by individual noise sensitivity. *Forum Acusticum*, 7-11 December 2020, Lyon, France {Online}. pp. 505-506, doi: [10.48465/fa.2020.0802](https://hal.archives-ouvertes.fr/hal-03235938/document). 
+
+Ellermeier, W., **Kattner, F.**, & Raum, A. (2020). Cross-modal commutativity of brightness and loudness productions. In J. Schoenherr, T. Hubbard, W. Stine, & C. Leth-Steenson (Eds.). [*Proceedings of the 36th Annual Meeting of the International Society for Psychophysics Fechner Day 2020*](http://fechnerday.com/fd2020/wp-content/uploads/2020/12/FD2020_Full-Proceedngs-160920-V3-compressed.pdf) (p. 17). International Society for Psychophysics {Online}.
+
+**Kattner, F.**, Hanl, S., Paul, L., & Ellermeier, W. (2020). Irrelevant sound effects on mental arithmetic. [*Online Workshop Distraction and Attention*](https://www.dropbox.com/sh/br6qftzog6ptf7q/AAAFiXZ1hRqxoqUQl2hmXVKSa?dl=0), 21 September 2020. University of Central Lancashire.
+
+### **2019**
+
+Clausen, A. & **Kattner, F.** (2019). Revisiting the prioritization of emotional information in iconic memory: A pre-registered replication study. In C. Lange-Küttner (Ed.). [*Annual Meeting of Experimental Psychologists* (TEAP 2019)](https://easychair.org/smart-program/TEAP2019/program.html). London, UK: London Metropolitan University.
+
+**Kattner, F.** & Ellermeier, W. (2019). Does training in auditory filtering reduce the irrelevant speech effect on serial recall? In C. Lange-Küttner (Ed.). [*Annual Meeting of Experimental Psychologists* (TEAP 2019)](https://easychair.org/smart-program/TEAP2019/program.html). London, UK: London Metropolitan University.
+
+### **2018**
+
+Ellermeier, W., **Kattner, F.**, Klippenstein, E., & Marquis-Favre, C. (2018). Judging noise annoyance as a function of task load: Effects of noise sensitivity. In F. Müller, L. Ludwigs, & M. Kupper (Eds.), [*Fechner Day 2018: Proceedings of the 34th Annual Meeting of the International Society for Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/616/603) (pp. 72-77), International Society for Psychophysics: Lüneburg, Germany, 20-24 August 2018.
+
+**Kattner, F.**, Coels, S., & Ellermeier, W.. (2018). Perceptual control of the irrelevant speech effect as a result of training on a dichotic listening task. In F. Müller, L. Ludwigs, & M. Kupper (Eds.), [*Fechner Day 2018: Proceedings of the 34th Annual Meeting of the International Society for Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/616/603) (pp. 203-207), International Society for Psychophysics: Lüneburg, Germany, 20-24 August 2018.
+
+### **2017**
+
+**Kattner, F.** (2017). Specificity of perceptual learning in an auditory interval categorization task. In K. Ueda, H. Ito, G. B. Remijn, & Y. Nakajima (Eds.), [*Fechner Day 2017: Proceedings of the 33rd Annual Meeting of the International Society of Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/587/575) (pp. 119-124). International Society for Psychophysics, Fukuoka, Japan.
+
+Ellermeier, W., **Kattner, F.**, Ueda, K., & Nakajima, Y. (2017). Irrelevant sound effects with locally time-reversed speech. In K. Ueda, H. Ito, G. B. Remijn, & Y. Nakajima (Eds.), [*Fechner Day 2017: Proceedings of the 33rd Annual Meeting of the International Society of Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/587/575) (pp. 42-47). International Society for Psychophysics, Fukuoka, Japan.
+
+Ellermeier, W., **Kattner, F.**, & Hanl, S. (2017). The irrelevant speech effect is modified by emotional prosody. In T. Goschke, A. Bolte, & C. Kirschbaum (Eds.), [*Abstracts of the 59th Conference of Experimental Psychologists*](https://www.amazon.de/TeaP-2017-Conference-Experimental-Psychologists-ebook/dp/B06XSYWVZ7) (p. 41), 26-29 March 2017, Dresden, Germany.
+
+**Kattner, F.** & Green, C. S. (2017). The impact of evaluative conditioning on early sensory processing. In T. Goschke, A. Bolte, & C. Kirschbaum (Eds.), [*Abstracts of the 59th Conference of Experimental Psychologists*](https://www.amazon.de/TeaP-2017-Conference-Experimental-Psychologists-ebook/dp/B06XSYWVZ7) (p. 161), 26-29 March 2017, Dresden, Germany.
+
+Ueda, K., Shibata, A., Nakajima, Y., Rost, K., **Kattner, F.**, & Ellermeier, W. (2017). Irrelevant sound effects with locally time-reversed speech: Real performance difference between German and Japanese native speakers? In K. Ueda, H. Ito, G. B. Remijn, & Y. Nakajima (Eds.), [*Fechner Day 2017: Proceedings of the 33rd Annual Meeting of the International Society of Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/587/575) (p. 222). International Society for Psychophysics, Fukuoka, Japan.
+
+### **2016**
+
+Ueda, K., Nakajima, Y., Tamura, S., Shichida, A., Ellermeier, W., **Kattner, F.**, Daebler, S., & Nie Neo, N. (2016). Intelligibility of locally time-reversed speech in Chinese, English, German, and Japanese. [*31st International Congress of Psychology*](https://psych.or.jp/icp2016/program08.html). 24-29 July 2016, Yokohama, Japan.
+
+**Kattner, F.** & Green, C. S. (2016). Stimulus specificity of intradimensional and extradimensional transfer effects in associative learning. In J. Funke, J. Rummel, & A. Voss (Eds), [*Abstracts of the 58th Conference of Experimental Psychologists*](https://www.psychologie.uni-heidelberg.de/ae/allg_en/mitarb/jf/Funke%20Rummel%20Voss%202016%20Teap%20abstracts.pdf) (pp. 152-153). 21-23 March 2016, Heidelberg, Germany.
+
+Ueda, K., Nakajima, Y., Ellermeier, W., & **Kattner, F.** (2016). [A multilingual comparison of intelligibility in locally time-reversed speech](img/Ueda_ASJ_ARM_May_2016_Manus.pdf). *Proceedings of the Auditory Research Meeting, 46*(3), 181-186.
+
+### **2015**
+
+Ueda, K., Nakajima, Y., Tamura, S., Ellermeier, W., **Kattner, F.**, & Daebler, S. (2015). The effect of segment duration on the intelligibility of locally time-reversed speech: A multilingual comparison. In S. Grondin \& V. Laflamme (Eds.), [*Proceedings of the 31st Annual Meeting of the International Society for Psychophysics (Fechner Day 2015)*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/584/572) (p. 42), 17-21 August 2015, Quebec City, Canada.
+
+**Kattner, F.**, White, P., & Green, C. S. (2015). Cue competition effects in evaluative conditioning. Paper presented at the *Small Group Meeting Associative and Propositional Learning*, 18-20 June, 2015, Warsaw, Poland
+
+### **2013**
+
+Birkenbusch, J., Ellermeier, W. & **Kattner, F.** (2013). Octuplicate this interval! In J. Wackermann, M. Wittmann, & W. Skrandies (Eds.), [*Proceedings of the 29th Annual Meeting of the International Society of Psychophysics (Fechner Day 2013)*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/579/569). Freiburg, Germany: International Society for Psychophysics.
+
+**Kattner, F.** (2013). Do concurrent measures of CS valence reveal extinction of evaluative conditioning? Paper presented at the [*13th European Congress of Psychology*](https://europeancongressofpsychology2013.wordpress.com/about/program-overview/). 9-12 July 2013, Stockholm, Sweden.
+
+**Kattner, F.** (2013). Do predictiveness effects on overt attention in contingency learning depend on the valence of the outcome? In U. Ansorge, E. Kirchler, C. Lamm, & H. Leder (Eds.), [*Abstracts of the 55th Conference of Experimental Psychologists*](https://psycharchives.org/bitstream/20.500.12034/679/1/Abstractband_55_2013_wien.pdf) (p. 140). Lengerich: Pabst.
+
+Birkenbusch, J. & **Kattner, F.** (2013). Pre-training performance affects configural discrimination learning. In U. Ansorge, E. Kirchler, C. Lamm, & H. Leder (Eds.), [*Abstracts of the 55th Conference of Experimental Psychologists*](https://psycharchives.org/bitstream/20.500.12034/679/1/Abstractband_55_2013_wien.pdf) (p. 329). Lengerich: Pabst.
+
+**Kattner, F.** & Ellermeier, W. (2013). Magnitude production of pitch ratios: A comparison of musicians and non-musicians. Paper presented at the [*AIA-DAGA 2013 Conference on Acoustics*](https://www.dega-akustik.de/fileadmin/dega-akustik.de/publikationen/DAGA/AIADAGA_13_Program.pdf). Merano, Italy.
+
+### **2012**
+
+**Kattner, F.** & Ellermeier, W. (2012). Can pitch be measured on a ratio scale? In C. Leth-Steensen & J. R. Schoenherr (Eds.), [*Proceedings of the 28th Annual Meeting of the International Society of Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/issue/view/1) (pp. 244-249). Ottawa, Canada: Carleton University.
+
+**Kattner, F.** (2012). Does evaluative conditioning occur with negative CS-US contingencies? In A. Bröder, E. Erdfelder, B. E. Hilbig, T. Meiser, R. F. Pohl, & D. Stahlberg (Eds.), *Abstracts of the 54. Tagung experimentell arbeitender Psychologen* (pp. 64-65). Lengerich: Pabst.
+
+Ellermeier, W., **Kattner, F.**, Ueda, K., Doumoto, K., & Nakajima, Y. (2012). Effects of noise-vocoded speech in the irrelevant-sound paradigm. [Paper presented at *38. Jahrestagung für Akustik – DAGA 2012* (p. 336)](http://pub.dega-akustik.de/DAGA_2012/data/articles/000421.pdf). Galrev: Berlin.
+
+### **2011**
+
+Ellermeier, W., **Kattner, F.**, Kurtze, L., Roos, M., Seeber, S., & Bös, J. (2011). Psychophysical scaling of the annoyance produced by photovoltaic inverters. [*Forum Acusticum 2011*](http://www.acta-acustica-united-with-acustica.com/fileadmin/Dateien/Download/ActaAcusticaunitedwithAcustica_TOC_Suppl1_V97.pdf). Aalborg, Denmark.
+
+**Kattner, F.** (2011). Evaluatives Konditionieren mit nicht-detektierten unkonditionierten Reizen: Ein Signalentdeckungs-Experiment. In K. Bittrich, S. Blankenberger, & Lukas, J. (eds.), [*53. Tagung experimentell arbeitender Psychologen*](https://www.psycharchives.org/bitstream/20.500.12034/682/1/Programmheft_TeaP_2011_Halle.pdf) (p. 87). Lengerich: Pabst.
+
+Birkenbusch, J. & **Kattner, F.** (2011). Stimulus properties in contingency learning: The auditory scale illusion produces a negative patterning advantage. In K. Bittrich, S. Blankenberger, & Lukas, J. (eds.), [*53. Tagung experimentell arbeitender Psychologen(https://www.psycharchives.org/bitstream/20.500.12034/682/1/Programmheft_TeaP_2011_Halle.pdf*](https://www.psycharchives.org/bitstream/20.500.12034/682/1/Programmheft_TeaP_2011_Halle.pdf) (p. 209). Lengerich: Pabst.
+
+Ellermeier, W., **Kattner, F.**, Kurtze, L., Roos, M., Seeber, S., & Bös, J. (2011). Psychoakustische Analyse der Betriebsgeräusche von Photovoltaik-Wechselrichtern. [Paper presented at *37. Deutsche Jahrestagung für Akustik – DAGA 2011* (p. 171)](https://pub.dega-akustik.de/DAGA_2011/data/articles/000396.pdf). Berlin: Galrev.
+
+### **2010**
+
+**Kattner, F.** & Ellermeier, W. (2010). Emotional valence and psychoacoustics of irrelevant speech. In A. Bastianelli & G. Vidotto (eds.), [*Proceedings of the 26th Annual Meeting of the International Society of Psychophysics*](http://proceedings.fechnerday.com/index.php/proceedings/article/view/520/511) (pp. 405-408). Padua, Italy.
+
+**Kattner, F.** & Ellermeier, W. (2010). Manipulating contingency awareness in evaluative conditioning via working memory disruption. *Associative Learning Symposium (XIV)*. Gregynog Hall, Wales, UK
+
+**Kattner, F.** & Ellermeier, W. (2010). Die RollederphonologischenSchleifebeimverbalenevaluativenKonditionieren [The role of the phonological loop in verbal evaluative conditioning]. In C. Frings, A. Mecklinger, D. Wentura & H. Zimmer (eds.), [*Beiträge zur 52. Tagung experimentell arbeitender Psychologen*](https://www.psycharchives.org/bitstream/20.500.12034/694/1/Tagungsband_TeaP_2010_SB.pdf) (p. 253). Lengerich: Pabst.
+
+### **2009**
+
+**Kattner, F.** & Ellermeier, W. (2009). The influence of attention and contingency awareness on explicit and implicit measures of evaluative conditioning. *Associative Learning Symposium (XIII)*. Gregynog Hall, Wales, UK.
+
+### **2007**
+
+**Kattner, F.**, Körber, B. & Hammerl, M. (2007). Die ErfassungpupillometrischerDatenbeievaluativerKonditionierung [Pupillary response measurement in evaluative conditioning]. In K. F. Wender, S. Mecklenbrauker, G. D. Rey, T. Wehr (eds.), [*Beiträge zur 49. Tagung experimentell arbeitender Psychologen*](https://psycharchives.org/bitstream/20.500.12034/687/1/Abstractband_TeaP_2007_Trier.pdf) (p. 310). Lengerich: Papst.
+-->
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
